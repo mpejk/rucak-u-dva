@@ -18,3 +18,4 @@
 - Za sutra se nudi i recept s pripremom večer prije, uz napomenu „Večeras: …”.
 - Offline test gasi lokalni poslužitelj umjesto Playwrightove offline emulacije, jer WebKit u Playwrightu tada ne može ni otvoriti stranicu; gašenje je realističnije.
 - Tekstovi „jeo/jela”, „probao/probala” pišu se s kosom crtom; spol djece se ne pretpostavlja.
+- Glas za čitanje naglas: gumbi 🔊 uvijek su u DOM-u i samo se otkrivaju kad se pojavi hrvatski glas (ponovno crtanje zaslona gubilo je dodire).

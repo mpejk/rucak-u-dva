@@ -331,7 +331,7 @@ def provjeri_offline(k, s, url, ugasi):
     assert len(prikazani_prijedlozi(s)) == 3
     idi(s, "#/recept/pizza-sir")
     assert s.locator(".sastojci li").count() == len(PO_ID["pizza-sir"]["sastojci"])
-    assert s.evaluate("document.querySelector('.slika.velika').naturalWidth") > 0
+    s.wait_for_function("(() => { const i = document.querySelector('.slika.velika'); return i && i.complete && i.naturalWidth > 0; })()")
     s.goto(url + "#/igra/Ana")
     s.wait_for_selector(".izbor")
     s.locator(".izbor[data-strana=a]").click()

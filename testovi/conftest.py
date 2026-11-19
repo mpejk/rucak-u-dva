@@ -36,8 +36,15 @@ def preglednik(request, pw):
     b.close()
 
 
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    izvjestaj = (yield).get_result()
+    if izvjestaj.when == "call":
+        item.pao = izvjestaj.failed
+
+
 @pytest.fixture
-def novi_kontekst(preglednik, pw, url):
+def novi_kontekst(request, preglednik, pw, url):
     """Tvornica praznih „uređaja”. Zona uređaja namjerno NIJE Zagreb."""
     otvoreni = []
 
@@ -51,6 +58,14 @@ def novi_kontekst(preglednik, pw, url):
         return k
 
     yield napravi
+    if getattr(request.node, "pao", False):  # snimka zaslona za dijagnozu
+        for i, k in enumerate(otvoreni):
+            for j, s in enumerate(k.pages):
+                try:
+                    s.screenshot(path=str(KORIJEN / ".radno" / f"neuspjeh-{request.node.name}-{i}-{j}.png"))
+                    (KORIJEN / ".radno" / f"neuspjeh-{request.node.name}-{i}-{j}.txt").write_text(s.url + "\n" + s.content()[:3000])
+                except Exception:
+                    pass
     for k in otvoreni:
         k.close()
 

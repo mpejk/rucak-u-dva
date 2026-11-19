@@ -315,12 +315,12 @@ function igra(ime) {
         ${slika(r.id)}
         <span class="izbor-naziv">${e(r.kratkiNaziv)}</span>
       </button>
-      ${hrGlas ? `<button type="button" class="citaj" data-tekst="${e(r.kratkiNaziv)}" aria-label="Pročitaj naglas">🔊</button>` : ''}
+      <button type="button" class="citaj" data-tekst="${e(r.kratkiNaziv)}" aria-label="Pročitaj naglas" ${hrGlas ? '' : 'hidden'}>🔊</button>
     </div>`;
   app.innerHTML = `${glava}${napredak}
     <section class="igra" data-broj="${k.broj}" data-krug="${k.krug}">
       <p class="pitanje">Što bi radije sutra za ručak?
-        ${hrGlas ? '<button type="button" class="citaj" data-tekst="Što bi radije sutra za ručak?" aria-label="Pročitaj pitanje">🔊</button>' : ''}</p>
+        <button type="button" class="citaj" data-tekst="Što bi radije sutra za ručak?" aria-label="Pročitaj pitanje" ${hrGlas ? '' : 'hidden'}>🔊</button></p>
       <div class="par">${kartica(ra, 'a')}${kartica(rb, 'b')}</div>
       <div class="dodatni" id="dodatni">
         <button type="button" class="gumb" data-odg="oboje">😋 Oboje mi je dobro</button>
@@ -510,9 +510,9 @@ function prikazi() {
 
 function nadjiGlas() {
   if (!('speechSynthesis' in window)) return;
-  const prije = hrGlas;
   hrGlas = speechSynthesis.getVoices().find((v) => /^hr\b|^hr-/i.test(v.lang)) || null;
-  if (!prije && hrGlas && ruta().dijelovi[0] === 'igra') prikazi();
+  // bez ponovnog crtanja (da se ne izgubi dodir): samo pokaži ili sakrij gumbe za čitanje
+  document.querySelectorAll('.citaj').forEach((b) => { b.hidden = !hrGlas; });
 }
 
 document.addEventListener('visibilitychange', () => {

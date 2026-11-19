@@ -1,0 +1,16 @@
+{
+  "name": "Ručak u dva",
+  "short_name": "Ručak u dva",
+  "description": "Bezglutenska obiteljska kuharica za šestero i igra za djecu.",
+  "lang": "hr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f2ea",
+  "theme_color": "#f6f2ea",
+  "icons": [
+    {"src": "ikone/ikona-180.png", "sizes": "180x180", "type": "image/png"},
+    {"src": "ikone/ikona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
+    {"src": "ikone/ikona.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}

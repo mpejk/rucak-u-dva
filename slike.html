@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ručak u dva — kontrola ilustracija</title>
+<style>
+ body { font-family: -apple-system, system-ui, sans-serif; background: #f6f2ea; margin: 16px; color: #2a2723; }
+ h1 { font-size: 20px; }
+ .mreza { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
+ figure { margin: 0; text-align: center; background: #fff; border-radius: 12px; padding: 8px; }
+ img { width: 100%; height: auto; }
+ figcaption { font-size: 13px; }
+</style>
+</head>
+<body>
+<h1>Kontrola ilustracija: svih 24 jela u istom stilu</h1>
+<div class="mreza" id="mreza"></div>
+<script>
+fetch('podaci/recepti.json').then(r => r.json()).then(recepti => {
+  document.getElementById('mreza').innerHTML = recepti.map(r =>
+    `<figure><img src="slike/${r.id}.svg" alt=""><figcaption>${r.kratkiNaziv}</figcaption></figure>`).join('');
+  document.body.dataset.spremno = '1';
+});
+</script>
+</body>
+</html>

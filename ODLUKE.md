@@ -9,3 +9,4 @@
 - Riječ „kocka” u nazivu sastojka provjera tretira kao temeljac, pa se meso ne opisuje kao „na kocke”.
 - Za petak: provjera traži i oznaku "meso": true i ključne riječi (meso, suhomesnato, mast, mesni temeljac).
 - Pizza: umak od rajčice računat je kao ukuhan (manja masa), pa pizza ima malo povrća na tanjuru.
+- Preuzimanje preglednika za Playwright: Node u Playwrightu ne vjeruje lokalnom TLS certifikatu, pa se instalira s NODE_OPTIONS="--use-system-ca" (README).

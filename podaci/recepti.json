@@ -49,9 +49,9 @@
    },
    {
     "naziv": "krastavci",
-    "kolicina": "2 srednja (oko 600 g)",
+    "kolicina": "3 srednja (oko 900 g)",
     "skupina": "povrce",
-    "grama": 600,
+    "grama": 900,
     "opis": "povrće"
    },
    {
@@ -374,7 +374,7 @@
     "naziv": "pasirana rajčica",
     "kolicina": "500 g",
     "skupina": "povrce",
-    "grama": 500,
+    "grama": 300,
     "opis": "rajčicu"
    },
    {
@@ -1745,7 +1745,7 @@
     "naziv": "pileći bataci s kožom",
     "kolicina": "12 komada (oko 2 kg)",
     "skupina": "bjelancevine",
-    "grama": 1300,
+    "grama": 900,
     "opis": "piletinu",
     "meso": true
    },
@@ -1758,9 +1758,9 @@
    },
    {
     "naziv": "mrkva",
-    "kolicina": "800 g",
+    "kolicina": "1,2 kg",
     "skupina": "povrce",
-    "grama": 800,
+    "grama": 1200,
     "opis": "mrkvu"
    },
    {

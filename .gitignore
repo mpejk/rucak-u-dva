@@ -1,0 +1,6 @@
+ZADATAK.md
+.radno/
+node_modules/
+.venv/
+test-results/
+playwright-report/

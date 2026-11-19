@@ -27,7 +27,14 @@ Tihi.extensions_map = {**http.server.SimpleHTTPRequestHandler.extensions_map,
 
 @contextlib.contextmanager
 def posluzi():
-    """Vraća osnovni URL, npr. http://127.0.0.1:PORT/rucak-u-dva/"""
+    """Vraća osnovni URL, npr. http://localhost:PORT/rucak-u-dva/"""
+    with posluzi_s_gasenjem() as (url, _):
+        yield url
+
+
+@contextlib.contextmanager
+def posluzi_s_gasenjem():
+    """Kao posluzi(), ali vraća i funkciju koja gasi poslužitelj (stvarni prekid veze)."""
     omot = KORIJEN / ".radno" / "posluzitelj"
     omot.mkdir(parents=True, exist_ok=True)
     veza = omot / PODMAPA
@@ -39,7 +46,12 @@ def posluzi():
     srv = http.server.ThreadingHTTPServer(("127.0.0.1", port), functools.partial(Tihi, directory=str(omot)))
     t = threading.Thread(target=srv.serve_forever, daemon=True)
     t.start()
+    ugaseno = []
+
+    def ugasi():
+        if not ugaseno:
+            srv.shutdown(); srv.server_close(); ugaseno.append(1)
     try:
-        yield f"http://localhost:{port}/{PODMAPA}/"
+        yield f"http://localhost:{port}/{PODMAPA}/", ugasi
     finally:
-        srv.shutdown()
+        ugasi()

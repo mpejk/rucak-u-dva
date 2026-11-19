@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Pokreće sve provjere. Izlazni kod 0 samo ako sve prolazi.
+set -u
+cd "$(dirname "$0")"
+export PLAYWRIGHT_BROWSERS_PATH="$PWD/.radno/browsers"
+status=0
+echo "== Provjera podataka recepata =="
+python3 alati/provjeri_podatke.py --samotest || status=1
+if [ ! -x .venv/bin/python ]; then
+  echo "Nedostaje .venv — vidi README (python3 -m venv .venv; pip install playwright pytest; playwright install chromium webkit)"
+  exit 1
+fi
+echo "== Scenariji u WebKitu (iPhone) i Chromiumu =="
+.venv/bin/python -m pytest -q -p no:cacheprovider testovi "$@" || status=1
+if [ $status -eq 0 ]; then echo "SVE PROVJERE PROŠLE"; else echo "NEKE PROVJERE NISU PROŠLE"; fi
+exit $status

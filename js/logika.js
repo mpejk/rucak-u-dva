@@ -258,7 +258,7 @@ export function razlogPrijedloga(r, ktx, sas, st, nacin) {
     if (st.odbili.length) dijelovi.push(`ali ${imena(st.odbili)} ga ne bi jeo/jela`);
     else if (st.razred === 3) dijelovi.push(st.glasala.length === 4 ? 'svih četvero ga rado jede' : `rado ga jedu svi koji su glasali (${zasadGlasala(st.glasala.length).toLowerCase()})`);
     else if (st.rado.length) dijelovi.push(`${imena(st.rado)} ga ${st.rado.length > 1 ? 'rado jedu' : 'rado jede'}`);
-  } else if (sas.razina === 2) dijelovi.push(`a tanjur je uravnotežen (${sas.opis})`);
+  } else if (sas.razina === 2) dijelovi.push(`tanjur je uravnotežen (${sas.opis})`);
   else dijelovi.push(sas.opis);
   return dijelovi.join('; ') + '.';
 }

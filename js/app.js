@@ -301,7 +301,11 @@ function igra(ime) {
     app.querySelector('#natrag-odg').onclick = () => { const s2 = P.ucitaj(); P.natrag(P.dijete(s2, ime, IDOVI)); P.spremi(s2); igra(ime); };
     return;
   }
-  if (k.vrsta === 'gotovo') { location.hash = `#/rezultati/${encodeURIComponent(ime)}?kraj=1`; return; }
+  if (k.vrsta === 'gotovo') {
+    history.replaceState(null, '', `#/rezultati/${encodeURIComponent(ime)}?kraj=1`);
+    rezultati(ime, new URLSearchParams('kraj=1'));
+    return;
+  }
 
   const [a, b] = k.par;
   const ra = PO_ID[a], rb = PO_ID[b];

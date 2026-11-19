@@ -10,3 +10,11 @@
 - Za petak: provjera traži i oznaku "meso": true i ključne riječi (meso, suhomesnato, mast, mesni temeljac).
 - Pizza: umak od rajčice računat je kao ukuhan (manja masa), pa pizza ima malo povrća na tanjuru.
 - Preuzimanje preglednika za Playwright: Node u Playwrightu ne vjeruje lokalnom TLS certifikatu, pa se instalira s NODE_OPTIONS="--use-system-ca" (README).
+- Naslov HZJZ dokumenta prepisan s naslovnice PDF-a: „Prehrambene smjernice — za 5. – 8. razrede osnovnih škola”.
+- Sastav obroka opisuje se razinom (malo povrća / oko trećine / gotovo pola tanjura) prema udjelu povrća u masi tanjura, bez bodova.
+- Obiteljska preporuka: izvedivo danas → koliko djece ga rado jede (netko odbija = dno) → sastav → prosječna ocjena djece.
+- Ocjena jela u igri: (pobjede + ½·„oboje” + 1)/(usporedbe + 2); „ne bih jeo” jednog jela računa se kao da je drugo draže; „nisam probao” ne nosi nikakvu ocjenu.
+- „Prekasno” znači da za odabrano vrijeme danas nema barem tri izvediva jela; tada se nude tri jela koja se mogu početi odmah (zaokruženo na 5 min).
+- Za sutra se nudi i recept s pripremom večer prije, uz napomenu „Večeras: …”.
+- Offline test gasi lokalni poslužitelj umjesto Playwrightove offline emulacije, jer WebKit u Playwrightu tada ne može ni otvoriti stranicu; gašenje je realističnije.
+- Tekstovi „jeo/jela”, „probao/probala” pišu se s kosom crtom; spol djece se ne pretpostavlja.

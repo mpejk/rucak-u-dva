@@ -1,0 +1,3752 @@
+[
+ {
+  "id": "losos-krumpir-salata",
+  "naziv": "Hrskavi losos bez kože s krumpir-salatom i jajima",
+  "kratkiNaziv": "Losos i krumpir-salata",
+  "glavno": "riba",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 50,
+  "aktivnoMin": 48,
+  "oprema": [
+   "veliki lonac za krumpir",
+   "mali lonac za jaja",
+   "velika tava (po mogućnosti tava od lijevanog željeza)",
+   "zdjela za salatu",
+   "kuhinjski papir"
+  ],
+  "istodobno": "Dok se krumpir kuha, skuhaj jaja i pripremi dresing s povrćem; losos ide u tavu tek kad je salata začinjena.",
+  "deklaracija": "Losos, jaja i krumpir su prirodno bez glutena. Provjeri deklaraciju kukuruznog škroba i senfa.",
+  "sastojci": [
+   {
+    "naziv": "losos bez kože, filet",
+    "kolicina": "900 g (6 komada)",
+    "skupina": "bjelancevine",
+    "grama": 900,
+    "opis": "ribu"
+   },
+   {
+    "naziv": "kukuruzni škrob (bezglutenski)",
+    "kolicina": "2 žlice",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Na pakiranju mora pisati „bez glutena”."
+   },
+   {
+    "naziv": "mladi krumpir ili krumpir za salatu",
+    "kolicina": "1,5 kg",
+    "skupina": "zitarice",
+    "grama": 1500,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "jaja",
+    "kolicina": "6 komada",
+    "skupina": "bjelancevine",
+    "grama": 330,
+    "opis": "jaja"
+   },
+   {
+    "naziv": "krastavci",
+    "kolicina": "2 srednja (oko 600 g)",
+    "skupina": "povrce",
+    "grama": 600,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "rotkvice",
+    "kolicina": "1 vezica (oko 200 g)",
+    "skupina": "povrce",
+    "grama": 200
+   },
+   {
+    "naziv": "mladi luk",
+    "kolicina": "4 stabljike",
+    "skupina": "povrce",
+    "grama": 80
+   },
+   {
+    "naziv": "crveni luk",
+    "kolicina": "1 mali",
+    "skupina": "povrce",
+    "grama": 80
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "6 žlica (za dresing) + 3 žlice (za prženje)",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "jabučni ocat",
+    "kolicina": "4 žlice",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "senf (bezglutenski)",
+    "kolicina": "1 žličica",
+    "skupina": "zacin",
+    "bg": true,
+    "deklaracija": "Neki senfovi sadrže pšenično brašno — traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "limun",
+    "kolicina": "1 komad",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "sol i papar",
+    "kolicina": "po ukusu (oko 2 žličice soli ukupno)",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Krumpir dobro operi (ne guli). Stavi ga u veliki lonac, prelij hladnom vodom da bude 2 prsta pokriven, dodaj 1 žličicu soli i stavi na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Krumpir je u loncu na ploči i voda se zagrijava."
+   },
+   {
+    "od": 5,
+    "min": 25,
+    "aktivno": false,
+    "tekst": "Kad voda zavrije, smanji na srednju vatru i kuhaj krumpir.",
+    "toplina": "srednja vatra",
+    "gotovo": "Vilica ulazi u najveći krumpir bez otpora."
+   },
+   {
+    "od": 5,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Jaja stavi u mali lonac, prelij hladnom vodom i stavi na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Jaja su u loncu na ploči."
+   },
+   {
+    "od": 8,
+    "min": 10,
+    "aktivno": false,
+    "tekst": "Jaja kuhaj 10 minuta od trenutka kad voda zakipi (tvrdo kuhana).",
+    "toplina": "srednja vatra",
+    "gotovo": "Prošlo je 10 minuta vrenja."
+   },
+   {
+    "od": 8,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Dok se jaja kuhaju: u zdjeli za salatu umiješaj ocat, senf, 6 žlica ulja, ½ žličice soli i papar. Crveni luk nareži na tanke polumjesece i stavi u dresing. Krastavce i rotkvice nareži na tanke ploške, mladi luk na kolutiće; ostavi ih sa strane.",
+    "gotovo": "Dresing je gladak, a povrće narezano."
+   },
+   {
+    "od": 18,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Jaja ocijedi i prelij hladnom vodom, ostavi 2 minute, zatim ih oguli i nareži na četvrtine.",
+    "gotovo": "Ljuska se lako skida, a žumanjak je potpuno čvrst."
+   },
+   {
+    "od": 24,
+    "min": 4,
+    "aktivno": true,
+    "tekst": "Losos osuši kuhinjskim papirom sa svih strana, posoli ga i lagano uvaljaj u kukuruzni škrob; otresi višak.",
+    "gotovo": "Riba je suha na dodir i tanko obložena škrobom."
+   },
+   {
+    "od": 30,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Krumpir ocijedi i ostavi 2 minute da ispari. Topao nareži na ploške debljine 1 cm (kožica smije ostati) i odmah ga umiješaj u dresing s lukom.",
+    "gotovo": "Krumpir je upio dresing i nema tekućine na dnu zdjele."
+   },
+   {
+    "od": 36,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "U velikoj tavi zagrij 3 žlice ulja. Prži losos 4 minute na prvoj strani bez pomicanja, okreni i prži još 3–4 minute. Ako sve ne stane odjednom, prži u dvije ture.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Korica je zlatna i hrskava, a sredina najdebljeg dijela tek prestaje biti prozirna (oko 55 °C)."
+   },
+   {
+    "od": 46,
+    "min": 4,
+    "aktivno": true,
+    "tekst": "U krumpir umiješaj krastavce, rotkvice i mladi luk, po vrhu složi jaja. Losos posluži uz salatu s kriškama limuna.",
+    "gotovo": "Sve je na stolu dok je losos još hrskav."
+   }
+  ]
+ },
+ {
+  "id": "tjestenina-tuna",
+  "naziv": "Bezglutenska tjestenina s tunom, rajčicom i graškom",
+  "kratkiNaziv": "Tjestenina s tunom",
+  "glavno": "riba",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 25,
+  "aktivnoMin": 18,
+  "oprema": [
+   "veliki lonac za tjesteninu",
+   "velika duboka tava",
+   "cjedilo"
+  ],
+  "istodobno": "Umak se kuha dok voda za tjesteninu dolazi do vrenja i dok se tjestenina kuha.",
+  "deklaracija": "Provjeri da je tjestenina bezglutenska. Tuna u konzervi i pasirana rajčica obično su bez glutena, ali pogledaj deklaraciju.",
+  "sastojci": [
+   {
+    "naziv": "bezglutenska tjestenina (penne ili fusilli)",
+    "kolicina": "600 g",
+    "skupina": "zitarice",
+    "grama": 1400,
+    "opis": "tjesteninu",
+    "bg": true,
+    "deklaracija": "Samo tjestenina s oznakom „bez glutena” (precrtani klas)."
+   },
+   {
+    "naziv": "tuna u vlastitom soku ili maslinovom ulju",
+    "kolicina": "4 konzerve po 160 g (ocijeđeno oko 450 g)",
+    "skupina": "bjelancevine",
+    "grama": 450,
+    "opis": "ribu",
+    "deklaracija": "Tuna s dodacima (umaci) može sadržavati gluten — uzmi čistu tunu."
+   },
+   {
+    "naziv": "pasirana rajčica",
+    "kolicina": "2 boce po 500 g",
+    "skupina": "povrce",
+    "grama": 1000,
+    "opis": "povrće",
+    "deklaracija": "Provjeri da nema dodanog škroba nepoznatog podrijetla."
+   },
+   {
+    "naziv": "smrznuti grašak",
+    "kolicina": "400 g",
+    "skupina": "povrce",
+    "grama": 400
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "1 veći",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "2 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "3 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "suhi origano",
+    "kolicina": "1 žličica",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "sol, papar, prstohvat šećera",
+    "kolicina": "po ukusu (oko 1 žlica soli za vodu)",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "naribani tvrdi sir (parmezan ili paški)",
+    "kolicina": "60 g, za posluživanje",
+    "skupina": "mlijecno",
+    "grama": 60
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "U veliki lonac ulij 4 litre vode, poklopi i stavi na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Lonac je na ploči."
+   },
+   {
+    "od": 2,
+    "min": 4,
+    "aktivno": true,
+    "tekst": "Luk sitno nasjeckaj, češnjak tanko nareži. Ocijedi tunu.",
+    "gotovo": "Luk i češnjak su nasjeckani, tuna ocijeđena."
+   },
+   {
+    "od": 6,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "U tavi zagrij ulje i pirjaj luk uz miješanje, zadnju minutu dodaj češnjak.",
+    "toplina": "srednja vatra",
+    "gotovo": "Luk je mekan i proziran, ne smeđi."
+   },
+   {
+    "od": 11,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Ulij pasiranu rajčicu, dodaj origano, ½ žličice soli i prstohvat šećera. Kad voda u loncu zavrije, posoli je s 1 žlicom soli i ubaci tjesteninu; promiješaj.",
+    "toplina": "jaka vatra za vodu, srednja za umak",
+    "gotovo": "Tjestenina je u kipućoj vodi, umak lagano mjehuri."
+   },
+   {
+    "od": 13,
+    "min": 9,
+    "aktivno": false,
+    "tekst": "Tjesteninu kuhaj koliko piše na pakiranju umanjeno za 1 minutu (bezglutenska se brže raspada), povremeno promiješaj. Umak kuhaj bez poklopca.",
+    "toplina": "srednja vatra",
+    "gotovo": "Tjestenina je mekana, ali drži oblik; umak se zgusnuo."
+   },
+   {
+    "od": 18,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "U umak dodaj grašak i tunu, rastrgaj je vilicom na komadiće i lagano promiješaj.",
+    "gotovo": "Grašak je jarko zelen i vruć."
+   },
+   {
+    "od": 22,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Sačuvaj šalicu vode od kuhanja, ocijedi tjesteninu i umiješaj je u umak. Ako je pregusto, dodaj malo sačuvane vode. Posluži sa sirom.",
+    "gotovo": "Tjestenina je ravnomjerno obavijena umakom."
+   }
+  ]
+ },
+ {
+  "id": "pizza-sir",
+  "naziv": "Domaća bezglutenska pizza sa sirom i rajčicom",
+  "kratkiNaziv": "Pizza sa sirom",
+  "glavno": "sir",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "oboje",
+  "ukupnoMin": 85,
+  "aktivnoMin": 30,
+  "oprema": [
+   "dva velika lima za pečenje",
+   "papir za pečenje",
+   "velika zdjela",
+   "mali lonac"
+  ],
+  "istodobno": "Dok se tijesto diže, zagrijava se pećnica i priprema umak; dvije pizze peku se jedna za drugom.",
+  "deklaracija": "Bezglutensko brašno za kruh i pizzu, kvasac i mozzarella moraju imati oznaku „bez glutena” ili jasnu deklaraciju. Provjeri i pasiranu rajčicu.",
+  "sastojci": [
+   {
+    "naziv": "bezglutenska mješavina brašna za kruh i pizzu",
+    "kolicina": "800 g",
+    "skupina": "zitarice",
+    "grama": 1300,
+    "opis": "bezglutensko tijesto",
+    "bg": true,
+    "deklaracija": "Koristi mješavinu namijenjenu kruhu ili pizzi (s psilijem ili guar gumom) s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "suhi kvasac",
+    "kolicina": "2 vrećice (14 g)",
+    "skupina": "ostalo",
+    "deklaracija": "Suhi kvasac je obično bez glutena; provjeri deklaraciju."
+   },
+   {
+    "naziv": "mlaka voda",
+    "kolicina": "650 ml",
+    "skupina": "ostalo"
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "5 žlica",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "šećer",
+    "kolicina": "1 žličica",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "sol",
+    "kolicina": "2 žličice",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "pasirana rajčica",
+    "kolicina": "500 g",
+    "skupina": "povrce",
+    "grama": 500,
+    "opis": "rajčicu"
+   },
+   {
+    "naziv": "mozzarella za pizzu, naribana",
+    "kolicina": "600 g",
+    "skupina": "mlijecno",
+    "grama": 600,
+    "opis": "sir"
+   },
+   {
+    "naziv": "cherry rajčice",
+    "kolicina": "250 g",
+    "skupina": "povrce",
+    "grama": 250
+   },
+   {
+    "naziv": "suhi origano i svježi bosiljak",
+    "kolicina": "1 žličica origana, šaka bosiljka",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "zelena salata (neobavezno, uz pizzu)",
+    "kolicina": "1 glavica",
+    "skupina": "povrce",
+    "grama": 300,
+    "neobavezno": true
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "U zdjeli pomiješaj brašno, kvasac, šećer i sol. Ulij mlaku vodu i 3 žlice ulja te mijesi žlicom ili mikserom s kukama 3–4 minute.",
+    "gotovo": "Tijesto je glatko, mekano i ljepljivije od običnog — to je u redu."
+   },
+   {
+    "od": 10,
+    "min": 40,
+    "aktivno": false,
+    "tekst": "Zdjelu pokrij i ostavi tijesto da se diže na toplom.",
+    "gotovo": "Tijesto je vidljivo naraslo (otprilike za trećinu)."
+   },
+   {
+    "od": 30,
+    "min": 20,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na najjače (250 °C, gornji i donji grijač) da se dobro zagrije.",
+    "temperatura": "250 °C",
+    "gotovo": "Lampica pećnice se ugasila i prošlo je barem 15 minuta."
+   },
+   {
+    "od": 30,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Umak: pasiranu rajčicu kuhaj s 1 žlicom ulja, origanom i prstohvatom soli. Cherry rajčice prepolovi.",
+    "toplina": "srednja vatra",
+    "gotovo": "Umak se zgusnuo i više ne curi sa žlice."
+   },
+   {
+    "od": 50,
+    "min": 7,
+    "aktivno": true,
+    "tekst": "Tijesto podijeli na dva dijela. Mokrim rukama ga razvuci na papir za pečenje na limovima, debljine oko 1 cm, rubovi malo deblji. Premaži umakom.",
+    "gotovo": "Oba lima su prekrivena tijestom i umakom."
+   },
+   {
+    "od": 57,
+    "min": 12,
+    "aktivno": false,
+    "tekst": "Peci prvi lim bez sira na srednjoj rešetki.",
+    "temperatura": "250 °C",
+    "gotovo": "Rubovi su suhi i blago zlatni."
+   },
+   {
+    "od": 69,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Izvadi prvi lim, pospi polovicu sira i cherry rajčica i vrati u pećnicu. Drugi lim čeka na stolu.",
+    "gotovo": "Sir je ravnomjerno rasut."
+   },
+   {
+    "od": 71,
+    "min": 6,
+    "aktivno": false,
+    "tekst": "Peci prvu pizzu do kraja.",
+    "temperatura": "250 °C",
+    "gotovo": "Sir je rastopljen i mjestimično zlatan, dno je čvrsto kad podigneš rub."
+   },
+   {
+    "od": 77,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Izvadi prvu pizzu, a drugi lim stavi u pećnicu. Prvu pizzu nareži i posluži prvoj grupi.",
+    "temperatura": "250 °C",
+    "gotovo": "Druga pizza je u pećnici."
+   },
+   {
+    "od": 80,
+    "min": 5,
+    "aktivno": false,
+    "tekst": "Drugu pizzu peci 3 minute bez sira, pa pospi ostatak sira i rajčica i peci još 2 minute (može i dulje dok sir ne pozlati). Pospi bosiljkom.",
+    "temperatura": "250 °C",
+    "gotovo": "Sir je rastopljen i mjehuri."
+   }
+  ]
+ },
+ {
+  "id": "oslic-blitva",
+  "naziv": "Pečeni oslić u bezglutenskim mrvicama s blitvom i krumpirom",
+  "kratkiNaziv": "Oslić s blitvom",
+  "glavno": "riba",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 45,
+  "aktivnoMin": 34,
+  "oprema": [
+   "veliki lim za pečenje",
+   "papir za pečenje",
+   "veliki lonac",
+   "tanjur za mrvice",
+   "cjedilo"
+  ],
+  "istodobno": "Pećnica se grije dok se pripremaju krumpir i blitva; riba se peče dok se kuha blitva s krumpirom.",
+  "deklaracija": "Krušne mrvice i palenta za pohanje moraju biti bezglutenske. Smrznuti oslić provjeri da nije već pohan.",
+  "sastojci": [
+   {
+    "naziv": "fileti oslića (odmrznuti, bez kože)",
+    "kolicina": "1 kg",
+    "skupina": "bjelancevine",
+    "grama": 1000,
+    "opis": "ribu",
+    "deklaracija": "Uzmi neobrađene filete, ne panirane."
+   },
+   {
+    "naziv": "bezglutenske krušne mrvice",
+    "kolicina": "120 g",
+    "skupina": "zitarice",
+    "grama": 120,
+    "bg": true,
+    "deklaracija": "Samo mrvice s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "jaja",
+    "kolicina": "2 komada",
+    "skupina": "bjelancevine",
+    "grama": 110
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,2 kg",
+    "skupina": "zitarice",
+    "grama": 1200,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "blitva",
+    "kolicina": "1,2 kg (2 veće vezice)",
+    "skupina": "povrce",
+    "grama": 1200,
+    "opis": "blitvu"
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "4 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "6 žlica",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "limun",
+    "kolicina": "1 komad",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "sol, papar, sušeni peršin",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 210 °C (ventilator 190 °C). Lim obloži papirom za pečenje.",
+    "temperatura": "210 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Krumpir oguli i nareži na kocke od 3 cm, stavi u veliki lonac s hladnom posoljenom vodom i stavi na jaku vatru. Blitvi odreži donje krajeve i operi je.",
+    "toplina": "jaka vatra",
+    "gotovo": "Krumpir je na vatri, blitva oprana."
+   },
+   {
+    "od": 8,
+    "min": 7,
+    "aktivno": true,
+    "tekst": "Ribu osuši papirom, posoli. Razmuti jaja u tanjuru, u drugi tanjur stavi mrvice s peršinom. Svaki filet umoči u jaje pa u mrvice i složi na lim. Pokapaj s 2 žlice ulja.",
+    "gotovo": "Svi fileti su obloženi i na limu."
+   },
+   {
+    "od": 15,
+    "min": 18,
+    "aktivno": false,
+    "tekst": "Peci ribu u sredini pećnice.",
+    "temperatura": "210 °C",
+    "gotovo": "Mrvice su zlatne, a riba se na najdebljem mjestu lako lista vilicom."
+   },
+   {
+    "od": 15,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Blitvu grubo nasjeckaj (peteljke sitnije). Kad krumpir kuha 10 minuta, peteljke ubaci u lonac.",
+    "gotovo": "Blitva je nasjeckana."
+   },
+   {
+    "od": 20,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Dodaj listove blitve u lonac s krumpirom i potopi ih.",
+    "toplina": "srednja vatra",
+    "gotovo": "Listovi su u vodi."
+   },
+   {
+    "od": 23,
+    "min": 8,
+    "aktivno": false,
+    "tekst": "Kuhaj krumpir i blitvu zajedno.",
+    "toplina": "srednja vatra",
+    "gotovo": "Krumpir se raspada kad ga pritisneš vilicom."
+   },
+   {
+    "od": 31,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Češnjak sitno nasjeckaj.",
+    "gotovo": "Češnjak je nasjeckan."
+   },
+   {
+    "od": 33,
+    "min": 7,
+    "aktivno": true,
+    "tekst": "Ocijedi krumpir s blitvom, vrati u lonac, dodaj češnjak, 4 žlice ulja, sol i papar te zgnječi vilicom da dio krumpira ostane u komadima.",
+    "gotovo": "Prilog je sjajan od ulja i jednoliko zelen."
+   },
+   {
+    "od": 40,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Ribu (izvađenu iz pećnice u 33. minuti) posluži uz blitvu s krumpirom i kriške limuna.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "rizoto-kozice",
+  "naziv": "Rižoto s kozicama i graškom",
+  "kratkiNaziv": "Rižoto s kozicama",
+  "glavno": "riba",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 40,
+  "aktivnoMin": 35,
+  "oprema": [
+   "široki lonac s debelim dnom",
+   "manji lonac za temeljac",
+   "drvena kuhača",
+   "kutlača"
+  ],
+  "istodobno": "Temeljac se grije dok se pirja luk; kozice se dodaju u zadnjih 5 minuta.",
+  "deklaracija": "Povrtni temeljac ili kocka moraju biti bezglutenski. Riža je prirodno bez glutena.",
+  "sastojci": [
+   {
+    "naziv": "riža za rižoto (arborio)",
+    "kolicina": "550 g",
+    "skupina": "zitarice",
+    "grama": 1300,
+    "opis": "rižu"
+   },
+   {
+    "naziv": "očišćene kozice (repovi), odmrznute",
+    "kolicina": "700 g",
+    "skupina": "bjelancevine",
+    "grama": 700,
+    "opis": "kozice"
+   },
+   {
+    "naziv": "smrznuti grašak",
+    "kolicina": "400 g",
+    "skupina": "povrce",
+    "grama": 400,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "tikvice",
+    "kolicina": "2 srednje (oko 500 g)",
+    "skupina": "povrce",
+    "grama": 500
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "1 veći",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "2 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "bezglutenski povrtni temeljac (ili kocka)",
+    "kolicina": "1,8 l",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Kocke i gotovi temeljci često sadrže pšenicu ili ječam — traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "maslac",
+    "kolicina": "30 g",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "naribani parmezan",
+    "kolicina": "50 g",
+    "skupina": "mlijecno",
+    "grama": 50
+   },
+   {
+    "naziv": "limun, sol, peršin",
+    "kolicina": "½ limuna, po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Temeljac zagrij u manjem loncu i drži ga vrućim na najslabijoj vatri. Luk i češnjak sitno nasjeckaj, tikvice nareži na kockice od 1 cm.",
+    "toplina": "slaba vatra za temeljac",
+    "gotovo": "Temeljac je vruć, povrće narezano."
+   },
+   {
+    "od": 5,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "U širokom loncu zagrij ulje i pirjaj luk, pa dodaj češnjak i tikvice.",
+    "toplina": "srednja vatra",
+    "gotovo": "Luk je proziran, tikvice malo omekšale."
+   },
+   {
+    "od": 10,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Dodaj rižu i miješaj dok se zrna ne obaviju uljem.",
+    "toplina": "srednja vatra",
+    "gotovo": "Rubovi zrna postaju prozirni."
+   },
+   {
+    "od": 12,
+    "min": 18,
+    "aktivno": true,
+    "tekst": "Dodaj kutlaču vrućeg temeljca i miješaj; kad riža upije tekućinu, dodaj sljedeću. Ponavljaj. Nakon 10 minuta dodaj grašak.",
+    "toplina": "srednja vatra",
+    "gotovo": "Riža je kremasta, a zrno je mekano s tek blagom jezgrom."
+   },
+   {
+    "od": 30,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Dodaj kozice i još malo temeljca, miješaj.",
+    "toplina": "srednja vatra",
+    "gotovo": "Kozice su posve ružičaste i savijene u oblik slova C."
+   },
+   {
+    "od": 35,
+    "min": 5,
+    "aktivno": false,
+    "tekst": "Skloni s vatre, umiješaj maslac, parmezan, malo limunova soka i peršin. Poklopi i ostavi da odstoji.",
+    "gotovo": "Rižoto se lagano razlijeva po tanjuru (nije tvrda masa)."
+   }
+  ]
+ },
+ {
+  "id": "fritaja-krumpir-spinat",
+  "naziv": "Fritaja s krumpirom i špinatom uz pečenu papriku",
+  "kratkiNaziv": "Fritaja s krumpirom",
+  "glavno": "jaja",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 40,
+  "aktivnoMin": 22,
+  "oprema": [
+   "velika tava koja ide u pećnicu (28 cm) ili duboki lim 30 × 20 cm",
+   "lim za pečenje",
+   "velika zdjela",
+   "pjenjača"
+  ],
+  "istodobno": "Paprike se peku u pećnici dok se na ploči pirja krumpir; zatim fritaja ide u istu pećnicu.",
+  "deklaracija": "Jaja, krumpir i povrće su prirodno bez glutena. Provjeri deklaraciju naribanog sira (neki sadrže škrob).",
+  "sastojci": [
+   {
+    "naziv": "jaja",
+    "kolicina": "12 komada",
+    "skupina": "bjelancevine",
+    "grama": 660,
+    "opis": "jaja"
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "800 g",
+    "skupina": "zitarice",
+    "grama": 800,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "svježi baby špinat",
+    "kolicina": "300 g",
+    "skupina": "povrce",
+    "grama": 300,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "crvene i žute paprike",
+    "kolicina": "6 komada (oko 1 kg)",
+    "skupina": "povrce",
+    "grama": 1000
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "1 veći",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "naribani sir (gauda ili trapist)",
+    "kolicina": "150 g",
+    "skupina": "mlijecno",
+    "grama": 150,
+    "deklaracija": "Gotovi naribani sir ponekad ima dodani škrob — provjeri da je bez glutena."
+   },
+   {
+    "naziv": "mlijeko",
+    "kolicina": "100 ml",
+    "skupina": "mlijecno"
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "5 žlica",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "sol, papar, muškatni oraščić",
+    "kolicina": "po ukusu (oko 1½ žličice soli)",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 200 °C (gornji i donji grijač).",
+    "temperatura": "200 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Paprike očisti, nareži na široke trake, stavi na lim, prelij s 2 žlice ulja i posoli. Krumpir oguli i nareži na tanke ploške (3 mm), luk na tanke polumjesece.",
+    "gotovo": "Paprike su na limu, krumpir i luk narezani."
+   },
+   {
+    "od": 10,
+    "min": 25,
+    "aktivno": false,
+    "tekst": "Peci paprike na donjoj rešetki dok fritaja ne bude gotova.",
+    "temperatura": "200 °C",
+    "gotovo": "Paprike su mekane, a rubovi mjestimično tamni."
+   },
+   {
+    "od": 6,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "U velikoj tavi zagrij 3 žlice ulja, dodaj krumpir i luk, posoli i pirjaj uz povremeno okretanje, poklopljeno.",
+    "toplina": "srednja vatra",
+    "gotovo": "Ploške krumpira su mekane kad ih probodeš nožem."
+   },
+   {
+    "od": 18,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Umiješaj špinat u krumpir dok ne svene. U zdjeli izmuti jaja s mlijekom, sirom, 1 žličicom soli, paprom i malo muškatnog oraščića.",
+    "gotovo": "Špinat je svenuo, jaja su jednolično izmućena."
+   },
+   {
+    "od": 21,
+    "min": 1,
+    "aktivno": true,
+    "tekst": "Prelij jaja preko krumpira u tavi (ili sve prebaci u nauljeni duboki lim) i stavi na srednju rešetku pećnice.",
+    "gotovo": "Fritaja je u pećnici."
+   },
+   {
+    "od": 22,
+    "min": 13,
+    "aktivno": false,
+    "tekst": "Peci fritaju.",
+    "temperatura": "200 °C",
+    "gotovo": "Sredina se ne trese kad pomakneš tavu, a čačkalica izlazi čista."
+   },
+   {
+    "od": 35,
+    "min": 5,
+    "aktivno": false,
+    "tekst": "Izvadi fritaju i paprike, ostavi fritaju 5 minuta da se slegne, zatim je nareži na 6 komada i posluži s paprikama.",
+    "gotovo": "Fritaja se reže u čiste komade."
+   }
+  ]
+ },
+ {
+  "id": "posni-grah",
+  "naziv": "Posni grah s povrćem i bezglutenskim kukuruznim kruhom",
+  "kratkiNaziv": "Posni grah",
+  "glavno": "mahunarke",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 55,
+  "aktivnoMin": 25,
+  "oprema": [
+   "veliki lonac s debelim dnom (5 l)",
+   "daska i nož",
+   "cjedilo",
+   "gnječilica ili vilica"
+  ],
+  "istodobno": "Dok se varivo kuha 30 minuta, kuhinja je slobodna; kruh se samo nareže.",
+  "deklaracija": "Povrtni temeljac i kukuruzni kruh moraju biti bezglutenski. Mljevena paprika i koncentrat rajčice obično su bez glutena, ali provjeri.",
+  "sastojci": [
+   {
+    "naziv": "grah tetovac ili zrnati grah iz konzerve, ocijeđen",
+    "kolicina": "4 konzerve po 400 g (oko 960 g ocijeđeno)",
+    "skupina": "bjelancevine",
+    "grama": 960,
+    "opis": "grah"
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "600 g",
+    "skupina": "zitarice",
+    "grama": 600,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "mrkva",
+    "kolicina": "400 g",
+    "skupina": "povrce",
+    "grama": 400,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "korijen celera",
+    "kolicina": "150 g",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "crvena paprika",
+    "kolicina": "2 komada (oko 300 g)",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "3 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "koncentrat rajčice",
+    "kolicina": "2 žlice",
+    "skupina": "povrce",
+    "grama": 40
+   },
+   {
+    "naziv": "slatka mljevena paprika",
+    "kolicina": "2 žličice",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "bezglutenski povrtni temeljac",
+    "kolicina": "1,5 l",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Kocke i gotovi temeljci često sadrže pšenicu — traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "lovorov list",
+    "kolicina": "2 komada",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "suncokretovo ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "jabučni ocat, peršin, sol, papar",
+    "kolicina": "1 žlica octa, po ukusu",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "bezglutenski kukuruzni kruh",
+    "kolicina": "500 g",
+    "skupina": "zitarice",
+    "grama": 500,
+    "bg": true,
+    "deklaracija": "Kukuruzni kruh iz pekare gotovo uvijek sadrži pšenicu — uzmi samo kruh s oznakom „bez glutena”."
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Luk i češnjak sitno nasjeckaj. Mrkvu i celer nareži na kockice od 1 cm, papriku na trakice, krumpir na kocke od 2 cm. Grah ocijedi i isperi.",
+    "gotovo": "Svo povrće je narezano."
+   },
+   {
+    "od": 8,
+    "min": 7,
+    "aktivno": true,
+    "tekst": "U loncu zagrij ulje i pirjaj luk 4 minute, dodaj mrkvu, celer, papriku i češnjak te pirjaj još 3 minute. Skloni lonac s vatre na pola minute, umiješaj mljevenu papriku i koncentrat (da paprika ne zagori).",
+    "toplina": "srednja vatra",
+    "gotovo": "Povrće je omekšalo, a ulje je crvenkasto."
+   },
+   {
+    "od": 15,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Dodaj krumpir, grah, lovor i vrući temeljac; promiješaj i pusti da zavrije.",
+    "toplina": "jaka vatra",
+    "gotovo": "Varivo vrije."
+   },
+   {
+    "od": 18,
+    "min": 30,
+    "aktivno": false,
+    "tekst": "Kuhaj poklopljeno, lagano.",
+    "toplina": "slaba do srednja vatra",
+    "gotovo": "Krumpir se raspada kad ga pritisneš o stijenku lonca."
+   },
+   {
+    "od": 48,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Izvadi lovor. Kutlaču variva zgnječi i vrati u lonac da se zgusne. Dodaj ocat, posoli, popapri i pospi peršinom.",
+    "gotovo": "Varivo je gusto i kremasto, a ne vodeno."
+   },
+   {
+    "od": 53,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Nareži kukuruzni kruh i posluži uz vruće varivo.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "lazanje-tikvice",
+  "naziv": "Bezglutenske lazanje s tikvicama i ricottom",
+  "kratkiNaziv": "Lazanje s tikvicama",
+  "glavno": "sir",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "vikend",
+  "ukupnoMin": 75,
+  "aktivnoMin": 39,
+  "oprema": [
+   "vatrostalna posuda oko 30 × 22 cm",
+   "velika tava",
+   "zdjela",
+   "aluminijska folija"
+  ],
+  "istodobno": "Pećnica se grije dok se pirjaju tikvice i miješa ricotta.",
+  "deklaracija": "Listovi za lazanje moraju biti bezglutenski. Provjeri deklaraciju ricotte i naribane mozzarelle.",
+  "sastojci": [
+   {
+    "naziv": "bezglutenski listovi za lazanje (bez prethodnog kuhanja)",
+    "kolicina": "500 g",
+    "skupina": "zitarice",
+    "grama": 900,
+    "opis": "bezglutenske lazanje",
+    "bg": true,
+    "deklaracija": "Samo listovi s oznakom „bez glutena”; trebaju malo više umaka nego obični."
+   },
+   {
+    "naziv": "tikvice",
+    "kolicina": "1,2 kg (4 srednje)",
+    "skupina": "povrce",
+    "grama": 1200,
+    "opis": "tikvice"
+   },
+   {
+    "naziv": "pasirana rajčica",
+    "kolicina": "1 kg",
+    "skupina": "povrce",
+    "grama": 1000
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "1 veći",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "3 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "ricotta",
+    "kolicina": "500 g",
+    "skupina": "mlijecno",
+    "grama": 500,
+    "opis": "sir"
+   },
+   {
+    "naziv": "jaje",
+    "kolicina": "1 komad",
+    "skupina": "bjelancevine",
+    "grama": 55
+   },
+   {
+    "naziv": "mozzarella",
+    "kolicina": "250 g",
+    "skupina": "mlijecno",
+    "grama": 250
+   },
+   {
+    "naziv": "naribani parmezan",
+    "kolicina": "60 g",
+    "skupina": "mlijecno",
+    "grama": 60
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "bosiljak, origano, sol, papar",
+    "kolicina": "po ukusu (oko 1½ žličice soli)",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 190 °C (gornji i donji grijač).",
+    "temperatura": "190 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Tikvice nareži na tanke ploške ili kockice, luk i češnjak sitno nasjeckaj. Mozzarellu nareži na tanke ploške.",
+    "gotovo": "Sve je narezano."
+   },
+   {
+    "od": 12,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "U tavi na ulju pirjaj luk 3 minute, dodaj češnjak i tikvice te pirjaj još 5 minuta. Dodaj pasiranu rajčicu, 200 ml vode, origano i 1 žličicu soli; kuhaj 2 minute.",
+    "toplina": "srednja vatra",
+    "gotovo": "Tikvice su mekane, a umak je rjeđi nego za tjesteninu (listovi će upiti tekućinu)."
+   },
+   {
+    "od": 22,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "U zdjeli izmiješaj ricottu, jaje, pola parmezana, ½ žličice soli, papar i nasjeckani bosiljak.",
+    "gotovo": "Smjesa je glatka i mazava."
+   },
+   {
+    "od": 28,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Na dno posude razmaži 3 žlice umaka. Slaži: listovi, ricotta, umak s tikvicama — ukupno tri sloja. Na vrh stavi umak, mozzarellu i ostatak parmezana. Pokrij folijom.",
+    "gotovo": "Svi listovi su potpuno prekriveni umakom."
+   },
+   {
+    "od": 38,
+    "min": 20,
+    "aktivno": false,
+    "tekst": "Peci pokriveno folijom.",
+    "temperatura": "190 °C",
+    "gotovo": "Rubovi bučkaju."
+   },
+   {
+    "od": 58,
+    "min": 1,
+    "aktivno": true,
+    "tekst": "Skini foliju.",
+    "temperatura": "190 °C",
+    "gotovo": "Folija je skinuta."
+   },
+   {
+    "od": 59,
+    "min": 10,
+    "aktivno": false,
+    "tekst": "Peci otkriveno.",
+    "temperatura": "190 °C",
+    "gotovo": "Sir je zlatan, a nož lako prolazi kroz listove."
+   },
+   {
+    "od": 69,
+    "min": 6,
+    "aktivno": false,
+    "tekst": "Izvadi i ostavi da odstoji prije rezanja.",
+    "gotovo": "Lazanje se režu u komade koji drže oblik."
+   }
+  ]
+ },
+ {
+  "id": "riblji-stapici-pire",
+  "naziv": "Domaći riblji štapići s pire krumpirom i graškom",
+  "kratkiNaziv": "Riblji štapići",
+  "glavno": "riba",
+  "petak": true,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 40,
+  "aktivnoMin": 34,
+  "oprema": [
+   "lim za pečenje",
+   "papir za pečenje",
+   "dva lonca",
+   "tri duboka tanjura",
+   "gnječilica za krumpir"
+  ],
+  "istodobno": "Krumpir se kuha dok se riba pohava i peče; grašak se kuha dok se radi pire.",
+  "deklaracija": "Krušne mrvice moraju biti bezglutenske; kukuruzni škrob provjeri na deklaraciji.",
+  "sastojci": [
+   {
+    "naziv": "fileti bijele ribe (bakalar ili oslić), bez kože",
+    "kolicina": "900 g",
+    "skupina": "bjelancevine",
+    "grama": 900,
+    "opis": "ribu"
+   },
+   {
+    "naziv": "kukuruzni škrob (bezglutenski)",
+    "kolicina": "60 g",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "jaja",
+    "kolicina": "2 komada",
+    "skupina": "bjelancevine",
+    "grama": 110
+   },
+   {
+    "naziv": "bezglutenske krušne mrvice",
+    "kolicina": "150 g",
+    "skupina": "zitarice",
+    "grama": 150,
+    "bg": true,
+    "deklaracija": "Samo mrvice s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,5 kg",
+    "skupina": "zitarice",
+    "grama": 1500,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "smrznuti grašak",
+    "kolicina": "800 g",
+    "skupina": "povrce",
+    "grama": 800,
+    "opis": "grašak"
+   },
+   {
+    "naziv": "mlijeko",
+    "kolicina": "250 ml",
+    "skupina": "mlijecno"
+   },
+   {
+    "naziv": "maslac",
+    "kolicina": "60 g",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "limun, sol",
+    "kolicina": "1 limun, po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 220 °C (ventilator 200 °C). Lim obloži papirom i premaži s 2 žlice ulja.",
+    "temperatura": "220 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Krumpir oguli, nareži na kocke od 3 cm, stavi u lonac s hladnom posoljenom vodom i na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Krumpir je na vatri."
+   },
+   {
+    "od": 8,
+    "min": 20,
+    "aktivno": false,
+    "tekst": "Kuhaj krumpir.",
+    "toplina": "srednja vatra",
+    "gotovo": "Krumpir se raspada kad ga probodeš nožem."
+   },
+   {
+    "od": 8,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Ribu osuši i nareži na štapiće širine 2 cm, posoli. U tri tanjura pripremi škrob, razmućena jaja i mrvice. Svaki štapić uvaljaj redom u škrob, jaje i mrvice i složi na lim. Pokapaj s 2 žlice ulja.",
+    "gotovo": "Svi štapići su jednolično obloženi."
+   },
+   {
+    "od": 20,
+    "min": 8,
+    "aktivno": false,
+    "tekst": "Peci štapiće u sredini pećnice.",
+    "temperatura": "220 °C",
+    "gotovo": "Donja strana je zlatna."
+   },
+   {
+    "od": 26,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Grašak stavi u mali lonac s 100 ml vode, 10 g maslaca i prstohvatom soli.",
+    "toplina": "srednja vatra",
+    "gotovo": "Grašak je na vatri."
+   },
+   {
+    "od": 28,
+    "min": 1,
+    "aktivno": true,
+    "tekst": "Okreni štapiće.",
+    "temperatura": "220 °C",
+    "gotovo": "Štapići su okrenuti."
+   },
+   {
+    "od": 28,
+    "min": 6,
+    "aktivno": false,
+    "tekst": "Kuhaj grašak poklopljeno.",
+    "toplina": "srednja vatra",
+    "gotovo": "Grašak je mekan i jarko zelen."
+   },
+   {
+    "od": 29,
+    "min": 7,
+    "aktivno": false,
+    "tekst": "Peci štapiće do kraja.",
+    "temperatura": "220 °C",
+    "gotovo": "Štapići su zlatni sa svih strana, riba iznutra bijela i lako se lista."
+   },
+   {
+    "od": 29,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Zagrij mlijeko. Krumpir ocijedi, vrati u lonac, dodaj ostatak maslaca i vruće mlijeko pa zgnječi i posoli.",
+    "gotovo": "Pire je gladak i bez grudica."
+   },
+   {
+    "od": 37,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Posluži štapiće s pireom, graškom i kriškama limuna.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "spageti-bolonjez",
+  "naziv": "Bezglutenski špageti bolonjez",
+  "kratkiNaziv": "Špageti bolonjez",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "oboje",
+  "ukupnoMin": 70,
+  "aktivnoMin": 36,
+  "oprema": [
+   "široki lonac s debelim dnom",
+   "veliki lonac za tjesteninu",
+   "cjedilo",
+   "drvena kuhača"
+  ],
+  "istodobno": "Dok se umak kuha 35 minuta, kuhinja je slobodna; voda za špagete stavlja se 20 minuta prije kraja.",
+  "deklaracija": "Špageti moraju biti bezglutenski. Mljeveno meso uzmi bez dodataka (čisto meso). Koncentrat rajčice provjeri na deklaraciji.",
+  "sastojci": [
+   {
+    "naziv": "bezglutenski špageti",
+    "kolicina": "600 g",
+    "skupina": "zitarice",
+    "grama": 1400,
+    "opis": "bezglutenske špagete",
+    "bg": true,
+    "deklaracija": "Samo s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "mljevena junetina",
+    "kolicina": "700 g",
+    "skupina": "bjelancevine",
+    "grama": 700,
+    "opis": "junetinu",
+    "meso": true,
+    "deklaracija": "Gotove mješavine mljevenog mesa ponekad imaju dodatke — uzmi čisto mljeveno meso."
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "mrkva",
+    "kolicina": "300 g (2 veće)",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "stabljika celera",
+    "kolicina": "2 stabljike (oko 150 g)",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "pasirana rajčica",
+    "kolicina": "1 kg",
+    "skupina": "povrce",
+    "grama": 1000
+   },
+   {
+    "naziv": "koncentrat rajčice",
+    "kolicina": "2 žlice",
+    "skupina": "povrce",
+    "grama": 40
+   },
+   {
+    "naziv": "mlijeko",
+    "kolicina": "100 ml",
+    "skupina": "mlijecno"
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "3 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "lovor, origano, sol, papar",
+    "kolicina": "1 list lovora, 1 žličica origana, po ukusu",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "naribani parmezan",
+    "kolicina": "60 g",
+    "skupina": "mlijecno",
+    "grama": 60
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Luk, mrkvu i celer sitno nasjeckaj (može i u sjeckalici).",
+    "gotovo": "Povrće je sitno kao riža."
+   },
+   {
+    "od": 10,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "U širokom loncu zagrij ulje i pirjaj povrće uz miješanje.",
+    "toplina": "srednja vatra",
+    "gotovo": "Povrće je mekano i blago zlatno."
+   },
+   {
+    "od": 18,
+    "min": 7,
+    "aktivno": true,
+    "tekst": "Pojačaj vatru, dodaj meso i razbijaj ga kuhačom dok se ne isprži.",
+    "toplina": "jaka vatra",
+    "gotovo": "Meso nije nigdje ružičasto i počinje cvrčati."
+   },
+   {
+    "od": 25,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Ulij mlijeko i pusti da ispari, zatim dodaj pasiranu rajčicu, koncentrat, lovor, origano, 1 žličicu soli i papar.",
+    "toplina": "srednja vatra",
+    "gotovo": "Umak lagano mjehuri."
+   },
+   {
+    "od": 28,
+    "min": 35,
+    "aktivno": false,
+    "tekst": "Kuhaj umak djelomično poklopljen, povremeno promiješaj.",
+    "toplina": "slaba vatra",
+    "gotovo": "Umak je gust, a na površini se skuplja malo crvenkastog ulja."
+   },
+   {
+    "od": 50,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "U veliki lonac ulij 4 litre vode, poklopi i stavi na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Lonac je na ploči."
+   },
+   {
+    "od": 55,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Kad voda zavrije, posoli je (1 žlica) i ubaci špagete; miješaj prve dvije minute da se ne slijepe.",
+    "toplina": "jaka vatra",
+    "gotovo": "Špageti su potonuli i odvojeni."
+   },
+   {
+    "od": 57,
+    "min": 9,
+    "aktivno": false,
+    "tekst": "Kuhaj špagete minutu kraće nego piše na pakiranju.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Špageti su mekani, ali ne raspadaju se."
+   },
+   {
+    "od": 66,
+    "min": 4,
+    "aktivno": true,
+    "tekst": "Ocijedi špagete (sačuvaj šalicu vode), izvadi lovor iz umaka i posluži špagete s umakom i parmezanom.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "cufte-pire",
+  "naziv": "Ćufte u umaku od rajčice s pire krumpirom",
+  "kratkiNaziv": "Ćufte s pireom",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "oboje",
+  "ukupnoMin": 75,
+  "aktivnoMin": 50,
+  "oprema": [
+   "velika zdjela",
+   "velika tava",
+   "široki lonac",
+   "lonac za krumpir",
+   "gnječilica"
+  ],
+  "istodobno": "Krumpir za pire kuha se dok se ćufte krčkaju u umaku.",
+  "deklaracija": "Krušne mrvice moraju biti bezglutenske. Mljeveno meso uzmi bez dodataka; provjeri i pasiranu rajčicu.",
+  "sastojci": [
+   {
+    "naziv": "miješano mljeveno meso (junetina i svinjetina)",
+    "kolicina": "900 g",
+    "skupina": "bjelancevine",
+    "grama": 900,
+    "opis": "meso",
+    "meso": true,
+    "deklaracija": "Uzmi čisto mljeveno meso, bez dodataka."
+   },
+   {
+    "naziv": "bezglutenske krušne mrvice",
+    "kolicina": "60 g",
+    "skupina": "zitarice",
+    "grama": 60,
+    "bg": true,
+    "deklaracija": "Samo s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "jaje",
+    "kolicina": "1 komad",
+    "skupina": "bjelancevine",
+    "grama": 55
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "2 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "mrkva, sitno naribana (u umak)",
+    "kolicina": "300 g",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "pasirana rajčica",
+    "kolicina": "1,2 kg",
+    "skupina": "povrce",
+    "grama": 1200
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,5 kg",
+    "skupina": "zitarice",
+    "grama": 1500,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "mlijeko",
+    "kolicina": "50 ml za ćufte + 300 ml za pire",
+    "skupina": "mlijecno"
+   },
+   {
+    "naziv": "maslac",
+    "kolicina": "60 g",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "sol, papar, slatka paprika, šećer, lovor",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Luk sitno nasjeckaj, češnjak protisni. U zdjeli umijesi meso, jaje, mrvice, 50 ml mlijeka, pola luka, češnjak, 1½ žličicu soli, papar i 1 žličicu slatke paprike.",
+    "gotovo": "Smjesa je ujednačena i lijepi se za ruke."
+   },
+   {
+    "od": 10,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Mokrim rukama oblikuj oko 30 ćufti veličine oraha.",
+    "gotovo": "Sve ćufte su oblikovane."
+   },
+   {
+    "od": 22,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "U tavi zagrij ulje i prži ćufte u dvije ture, okrećući ih.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Ćufte su smeđe sa svih strana (iznutra ne moraju biti gotove)."
+   },
+   {
+    "od": 30,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "U širokom loncu na malo ulja pirjaj ostatak luka i mrkvu 3 minute. Dodaj pasiranu rajčicu, 300 ml vode, žličicu šećera, lovor i sol, pa ubaci ćufte.",
+    "toplina": "srednja vatra",
+    "gotovo": "Umak vrije, a ćufte su potopljene."
+   },
+   {
+    "od": 35,
+    "min": 35,
+    "aktivno": false,
+    "tekst": "Kuhaj ćufte u umaku poklopljeno, povremeno lagano protresi lonac.",
+    "toplina": "slaba vatra",
+    "gotovo": "Ćufte su iznutra posve sive (oko 75 °C), umak je gust."
+   },
+   {
+    "od": 40,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Krumpir oguli, nareži na kocke, stavi u lonac s hladnom posoljenom vodom na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Krumpir je na vatri."
+   },
+   {
+    "od": 45,
+    "min": 20,
+    "aktivno": false,
+    "tekst": "Kuhaj krumpir.",
+    "toplina": "srednja vatra",
+    "gotovo": "Krumpir se raspada pod vilicom."
+   },
+   {
+    "od": 65,
+    "min": 7,
+    "aktivno": true,
+    "tekst": "Zagrij 300 ml mlijeka. Krumpir ocijedi, dodaj maslac i mlijeko, zgnječi i posoli.",
+    "gotovo": "Pire je gladak i mekan."
+   },
+   {
+    "od": 72,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Izvadi lovor i posluži ćufte s umakom uz pire.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "bataci-krumpir-mrkva",
+  "naziv": "Pileći bataci s krumpirom i mrkvom iz pećnice",
+  "kratkiNaziv": "Bataci s krumpirom",
+  "glavno": "piletina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "oboje",
+  "ukupnoMin": 75,
+  "aktivnoMin": 20,
+  "oprema": [
+   "veliki duboki lim za pečenje",
+   "velika zdjela",
+   "termometar za meso (ako ga imaš)"
+  ],
+  "istodobno": "Povrće i meso peku se zajedno na jednom limu; za vrijeme pečenja kuhinja je slobodna.",
+  "deklaracija": "Koristi čiste začine; gotove mješavine začina (vegeta, začini za piletinu) mogu sadržavati gluten pa provjeri deklaraciju.",
+  "sastojci": [
+   {
+    "naziv": "pileći bataci s kožom",
+    "kolicina": "12 komada (oko 2 kg)",
+    "skupina": "bjelancevine",
+    "grama": 1300,
+    "opis": "piletinu",
+    "meso": true
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,3 kg",
+    "skupina": "zitarice",
+    "grama": 1300,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "mrkva",
+    "kolicina": "800 g",
+    "skupina": "povrce",
+    "grama": 800,
+    "opis": "mrkvu"
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "1 glavica",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "5 žlica",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "slatka mljevena paprika, ružmarin, sol, papar",
+    "kolicina": "2 žličice paprike, 2 grančice ružmarina, 2½ žličice soli",
+    "skupina": "zacin",
+    "deklaracija": "Čisti začini su bez glutena; mješavine provjeri."
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 200 °C (gornji i donji grijač).",
+    "temperatura": "200 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Krumpir oguli i nareži na kriške, mrkvu na komade od 4 cm (deblje uzdužno prepolovi), luk na osmine. U limu pomiješaj povrće s 3 žlice ulja, 1 žličicom soli i neoguljenim češnjem češnjaka.",
+    "gotovo": "Povrće je ravnomjerno raspoređeno po limu."
+   },
+   {
+    "od": 12,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Batake osuši papirom i natrljaj s 2 žlice ulja, paprikom, 1½ žličicom soli i paprom. Složi ih kožom prema gore na povrće, između stavi ružmarin.",
+    "gotovo": "Bataci leže na povrću i ne preklapaju se."
+   },
+   {
+    "od": 18,
+    "min": 30,
+    "aktivno": false,
+    "tekst": "Peci u sredini pećnice.",
+    "temperatura": "200 °C",
+    "gotovo": "Koža počinje rumeniti."
+   },
+   {
+    "od": 48,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Izvadi lim, promiješaj povrće ispod mesa i prelij batake sokom s dna lima.",
+    "temperatura": "200 °C",
+    "gotovo": "Povrće je okrenuto."
+   },
+   {
+    "od": 50,
+    "min": 20,
+    "aktivno": false,
+    "tekst": "Peci do kraja.",
+    "temperatura": "200 °C",
+    "gotovo": "Koža je hrskava, a sok uz kost je bistar (najmanje 80 °C uz kost); krumpir je zlatan i mekan."
+   },
+   {
+    "od": 70,
+    "min": 5,
+    "aktivno": false,
+    "tekst": "Izvadi lim i ostavi meso da odstoji, pa posluži.",
+    "gotovo": "Meso se lako odvaja od kosti."
+   }
+  ]
+ },
+ {
+  "id": "pasticada-njoki",
+  "naziv": "Pašticada s bezglutenskim njokima",
+  "kratkiNaziv": "Pašticada s njokima",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": true,
+  "tip": "vikend",
+  "ukupnoMin": 208,
+  "aktivnoMin": 60,
+  "pripremaUnaprijed": {
+   "tekst": "Večer prije: meso nožem probuši na 8–10 mjesta i u rupe utisni trakice slanine, češnjaka i mrkve. Stavi ga u zdjelu, prelij s 300 ml vinskog octa i 300 ml vode, pokrij i stavi u hladnjak. Okreni ga jednom ako stigneš.",
+   "min": 20,
+   "odlezavanje": "najmanje 12 sati u hladnjaku"
+  },
+  "oprema": [
+   "veliki lonac s debelim dnom i poklopcem (6 l)",
+   "zdjela za mariniranje",
+   "štapni mikser",
+   "lonac za njoke",
+   "šupljikava žlica"
+  ],
+  "istodobno": "Dok se meso dva i pol sata pirja, kuhinja je slobodna; voda za njoke stavlja se dok se umak miksa.",
+  "deklaracija": "Njoki moraju biti bezglutenski. Temeljac ili kocka i slanina moraju imati oznaku „bez glutena” ili jasnu deklaraciju; provjeri i koncentrat rajčice.",
+  "sastojci": [
+   {
+    "naziv": "junetina za pašticadu (frikando)",
+    "kolicina": "1,4 kg u komadu",
+    "skupina": "bjelancevine",
+    "grama": 1000,
+    "opis": "junetinu",
+    "meso": true
+   },
+   {
+    "naziv": "slanina u komadu (za špikanje)",
+    "kolicina": "80 g",
+    "skupina": "masnoca",
+    "meso": true,
+    "deklaracija": "Provjeri da u sastavu nema glutena (začinske mješavine)."
+   },
+   {
+    "naziv": "vinski ocat",
+    "kolicina": "300 ml (za mariniranje)",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "4 srednja (oko 400 g)",
+    "skupina": "povrce",
+    "grama": 400,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "mrkva",
+    "kolicina": "500 g (dio za špikanje)",
+    "skupina": "povrce",
+    "grama": 500
+   },
+   {
+    "naziv": "korijen celera",
+    "kolicina": "150 g",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "suhe šljive",
+    "kolicina": "120 g",
+    "skupina": "povrce",
+    "grama": 120,
+    "opis": "voće"
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "6 režnjeva",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "koncentrat rajčice",
+    "kolicina": "2 žlice",
+    "skupina": "povrce",
+    "grama": 40
+   },
+   {
+    "naziv": "crno vino (alkohol ispari dugim kuhanjem; može i bez)",
+    "kolicina": "200 ml",
+    "skupina": "ostalo"
+   },
+   {
+    "naziv": "bezglutenski goveđi temeljac",
+    "kolicina": "1 l",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Kocke i gotovi temeljci često sadrže pšenicu — traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "bezglutenski njoki",
+    "kolicina": "1,2 kg",
+    "skupina": "zitarice",
+    "grama": 1200,
+    "opis": "bezglutenske njoke",
+    "bg": true,
+    "deklaracija": "Obični njoki sadrže pšenično brašno — samo s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "maslinovo ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "lovor, klinčić, muškatni oraščić, sol, papar",
+    "kolicina": "2 lista lovora, 3 klinčića, prstohvat oraščića, po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Meso izvadi iz marinade (marinadu baci), osuši papirom i posoli. Luk nareži na tanke polumjesece, mrkvu i celer na kolute.",
+    "gotovo": "Meso je suho, povrće narezano."
+   },
+   {
+    "od": 10,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "U velikom loncu zagrij ulje i zapeci meso sa svih strana. Izvadi ga na tanjur.",
+    "toplina": "jaka vatra",
+    "gotovo": "Meso ima tamnosmeđu koricu sa svih strana."
+   },
+   {
+    "od": 22,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "U isti lonac stavi luk i pirjaj uz često miješanje; dodaj mrkvu, celer, češnjak, šljive i koncentrat.",
+    "toplina": "srednja vatra",
+    "gotovo": "Luk je tamnozlatan i mekan kao pekmez."
+   },
+   {
+    "od": 34,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Vrati meso, ulij vino i temeljac, dodaj lovor, klinčiće i oraščić.",
+    "toplina": "jaka vatra",
+    "gotovo": "Tekućina vrije i pokriva meso do pola."
+   },
+   {
+    "od": 37,
+    "min": 150,
+    "aktivno": false,
+    "tekst": "Pirjaj poklopljeno, lagano. Svakih pola sata okreni meso i po potrebi dolij malo vode.",
+    "toplina": "slaba vatra",
+    "gotovo": "Vilica ulazi u meso bez otpora."
+   },
+   {
+    "od": 180,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Stavi veliki lonac posoljene vode za njoke na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Voda se grije."
+   },
+   {
+    "od": 187,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Izvadi meso na dasku. Iz umaka izvadi lovor i klinčiće, pa umak izmiksaj štapnim mikserom. Ako je prerijedak, kuhaj ga još nekoliko minuta otklopljenog.",
+    "toplina": "srednja vatra",
+    "gotovo": "Umak je gladak, sjajan i prekriva žlicu."
+   },
+   {
+    "od": 197,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Njoke ubaci u kipuću vodu i jednom promiješaj.",
+    "toplina": "jaka vatra",
+    "gotovo": "Njoki su u vodi."
+   },
+   {
+    "od": 200,
+    "min": 3,
+    "aktivno": false,
+    "tekst": "Kuhaj njoke.",
+    "toplina": "srednja vatra",
+    "gotovo": "Njoki su isplivali na površinu."
+   },
+   {
+    "od": 200,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Meso nareži poprijeko na ploške debljine 1 cm i vrati ga u umak.",
+    "gotovo": "Ploške su potopljene u umak."
+   },
+   {
+    "od": 205,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Njoke izvadi šupljikavom žlicom, prelij s malo umaka i posluži uz meso.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "sarma-pire",
+  "naziv": "Sarma s pire krumpirom",
+  "kratkiNaziv": "Sarma",
+  "glavno": "svinjetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "vikend",
+  "ukupnoMin": 218,
+  "aktivnoMin": 79,
+  "oprema": [
+   "veliki lonac (8 l)",
+   "tava",
+   "zdjela",
+   "lonac za krumpir",
+   "gnječilica"
+  ],
+  "istodobno": "Sarma se kuha dva i pol sata sama; krumpir za pire stavlja se pola sata prije kraja.",
+  "deklaracija": "Bezglutensko brašno za zapršku, dimljena rebra i mljeveno meso provjeri na deklaraciji. Kiseli kupus je obično bez glutena.",
+  "sastojci": [
+   {
+    "naziv": "glavica kiselog kupusa (cijeli listovi)",
+    "kolicina": "1 velika (oko 2 kg)",
+    "skupina": "povrce",
+    "grama": 1400,
+    "opis": "kiseli kupus"
+   },
+   {
+    "naziv": "miješano mljeveno meso (junetina i svinjetina)",
+    "kolicina": "800 g",
+    "skupina": "bjelancevine",
+    "grama": 800,
+    "opis": "meso",
+    "meso": true,
+    "deklaracija": "Uzmi čisto mljeveno meso, bez dodataka."
+   },
+   {
+    "naziv": "dimljena svinjska rebra",
+    "kolicina": "500 g",
+    "skupina": "bjelancevine",
+    "grama": 300,
+    "meso": true,
+    "deklaracija": "Suhomesnati proizvodi ponekad sadrže gluten — provjeri deklaraciju."
+   },
+   {
+    "naziv": "riža",
+    "kolicina": "150 g",
+    "skupina": "zitarice",
+    "grama": 350
+   },
+   {
+    "naziv": "jaje",
+    "kolicina": "1 komad",
+    "skupina": "bjelancevine",
+    "grama": 55
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "3 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "bezglutensko brašno (za zapršku)",
+    "kolicina": "1 žlica",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Samo s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,3 kg",
+    "skupina": "zitarice",
+    "grama": 1300,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "mlijeko",
+    "kolicina": "250 ml",
+    "skupina": "mlijecno"
+   },
+   {
+    "naziv": "maslac",
+    "kolicina": "50 g",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "slatka mljevena paprika, lovor, papar u zrnu, sol",
+    "kolicina": "2 žličice paprike, 3 lista lovora, po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Luk i češnjak sitno nasjeckaj. Rižu isperi u cjedilu.",
+    "gotovo": "Luk je nasjeckan, riža oprana."
+   },
+   {
+    "od": 10,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Na 2 žlice ulja pirjaj luk i češnjak, ostavi da se malo ohlade pa umijesi s mesom, rižom, jajem, 1 žličicom paprike, 1 žličicom soli i paprom.",
+    "toplina": "srednja vatra",
+    "gotovo": "Nadjev je jednoličan."
+   },
+   {
+    "od": 18,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Odvoji listove kupusa i kratko ih isperi; ako su jako kiseli, ostavi ih u hladnoj vodi dok zamataš. Odreži zadebljani dio rebra lista. Ostatak glavice nareži na rezance.",
+    "gotovo": "Listovi su spremni, rezanci odvojeni."
+   },
+   {
+    "od": 23,
+    "min": 25,
+    "aktivno": true,
+    "tekst": "Na svaki list stavi žlicu nadjeva, preklopi donji dio, zatim bočne strane i čvrsto zamotaj. Prstom utisni krajeve unutra. Napravi oko 18 sarmi.",
+    "gotovo": "Sarme su čvrste i ne odmotavaju se."
+   },
+   {
+    "od": 48,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "U veliki lonac stavi pola rezanaca kupusa, slaži sarme, između rebra i lovor, prekrij ostatkom kupusa. Nalij hladne vode da sve prekrije i stavi na jaku vatru.",
+    "toplina": "jaka vatra",
+    "gotovo": "Sarme su prekrivene vodom."
+   },
+   {
+    "od": 56,
+    "min": 150,
+    "aktivno": false,
+    "tekst": "Kad zavrije, kuhaj poklopljeno, lagano. Nemoj miješati — samo povremeno protresi lonac.",
+    "toplina": "slaba vatra",
+    "gotovo": "Listovi su mekani i prozirni, riža u nadjevu mekana."
+   },
+   {
+    "od": 180,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Krumpir oguli, nareži i stavi u lonac s hladnom posoljenom vodom.",
+    "toplina": "jaka vatra",
+    "gotovo": "Krumpir je na vatri."
+   },
+   {
+    "od": 185,
+    "min": 20,
+    "aktivno": false,
+    "tekst": "Kuhaj krumpir.",
+    "toplina": "srednja vatra",
+    "gotovo": "Krumpir se raspada pod vilicom."
+   },
+   {
+    "od": 195,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Zaprška: na 2 žlice ulja kratko prži bezglutensko brašno, makni s vatre, dodaj 1 žličicu paprike i kutlaču tekućine iz sarme. Izlij u lonac i protresi.",
+    "toplina": "srednja vatra",
+    "gotovo": "Tekućina u sarmi je blago zgusnuta i crvenkasta."
+   },
+   {
+    "od": 205,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Zagrij mlijeko. Krumpir ocijedi, dodaj maslac i mlijeko i zgnječi u pire; posoli.",
+    "gotovo": "Pire je gladak."
+   },
+   {
+    "od": 213,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Posluži 3 sarme po odrasloj osobi (djeci po 2) s pireom i malo kupusa.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "pohana-piletina-rizi-bizi",
+  "naziv": "Pohana piletina s rizi-bizijem i salatom od krastavaca",
+  "kratkiNaziv": "Pohana piletina",
+  "glavno": "piletina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 45,
+  "aktivnoMin": 45,
+  "oprema": [
+   "široka tava",
+   "lonac s poklopcem za rižu",
+   "tri duboka tanjura",
+   "batić za meso ili dno tave",
+   "kuhinjski papir"
+  ],
+  "istodobno": "Rizi-bizi se kuha sam dok se piletina pohava i prži.",
+  "deklaracija": "Bezglutensko brašno, krušne mrvice i temeljac provjeri na deklaraciji.",
+  "sastojci": [
+   {
+    "naziv": "pileća prsa bez kože",
+    "kolicina": "1 kg",
+    "skupina": "bjelancevine",
+    "grama": 900,
+    "opis": "piletinu",
+    "meso": true
+   },
+   {
+    "naziv": "bezglutensko brašno",
+    "kolicina": "80 g",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Samo s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "jaja",
+    "kolicina": "3 komada",
+    "skupina": "bjelancevine",
+    "grama": 165
+   },
+   {
+    "naziv": "bezglutenske krušne mrvice",
+    "kolicina": "200 g",
+    "skupina": "zitarice",
+    "grama": 200,
+    "bg": true,
+    "deklaracija": "Samo s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "riža dugog zrna",
+    "kolicina": "450 g",
+    "skupina": "zitarice",
+    "grama": 1000,
+    "opis": "rižu"
+   },
+   {
+    "naziv": "smrznuti grašak",
+    "kolicina": "450 g",
+    "skupina": "povrce",
+    "grama": 450,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "bezglutenski povrtni temeljac",
+    "kolicina": "1 l",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "1 manji",
+    "skupina": "povrce",
+    "grama": 100
+   },
+   {
+    "naziv": "krastavci",
+    "kolicina": "3 srednja (oko 900 g)",
+    "skupina": "povrce",
+    "grama": 900
+   },
+   {
+    "naziv": "ulje za prženje",
+    "kolicina": "200 ml",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "kiselo vrhnje ili jogurt, ocat",
+    "kolicina": "200 g vrhnja, 1 žlica octa",
+    "skupina": "mlijecno"
+   },
+   {
+    "naziv": "sol, papar, limun",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Prsa prereži vodoravno na tanke odreske (oko 1 cm), kratko istuci kroz prozirnu foliju, posoli i popapri. Luk sitno nasjeckaj.",
+    "gotovo": "Odresci su jednako tanki."
+   },
+   {
+    "od": 10,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "U loncu na žlici ulja kratko pirjaj luk, dodaj rižu, promiješaj, ulij vrući temeljac i pusti da zavrije.",
+    "toplina": "srednja vatra",
+    "gotovo": "Riža vrije."
+   },
+   {
+    "od": 13,
+    "min": 18,
+    "aktivno": false,
+    "tekst": "Kuhaj rižu poklopljeno; u zadnjih 8 minuta (kad pržiš drugu turu mesa) umiješaj grašak.",
+    "toplina": "slaba vatra",
+    "gotovo": "Riža je upila svu tekućinu i mekana je."
+   },
+   {
+    "od": 13,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "U tri tanjura pripremi brašno, razmućena jaja i mrvice. Svaki odrezak uvaljaj redom u brašno, jaje i mrvice.",
+    "gotovo": "Svi odresci su obloženi."
+   },
+   {
+    "od": 23,
+    "min": 14,
+    "aktivno": true,
+    "tekst": "U tavi zagrij ulje (sloj od 1 cm) i prži odreske u dvije ture, 3–4 minute po strani. Ocijedi na papiru.",
+    "toplina": "srednje jaka vatra (ulje oko 170 °C)",
+    "gotovo": "Korica je zlatna, a meso iznutra bijelo, bez ružičastog soka."
+   },
+   {
+    "od": 37,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Krastavce tanko nareži, posoli, začini octom i vrhnjem.",
+    "gotovo": "Salata je začinjena."
+   },
+   {
+    "od": 42,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Rižu prorahli vilicom i posluži s piletinom, salatom i kriškama limuna.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "punjene-paprike",
+  "naziv": "Punjene paprike u umaku od rajčice s kuhanim krumpirom",
+  "kratkiNaziv": "Punjene paprike",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "oboje",
+  "ukupnoMin": 90,
+  "aktivnoMin": 38,
+  "oprema": [
+   "veliki široki lonac (6 l)",
+   "zdjela",
+   "lonac za krumpir"
+  ],
+  "istodobno": "Paprike se kuhaju sat vremena same; krumpir se kuha u drugom loncu zadnjih pola sata.",
+  "deklaracija": "Mljeveno meso uzmi bez dodataka; provjeri deklaraciju pasirane rajčice.",
+  "sastojci": [
+   {
+    "naziv": "babure (paprike za punjenje)",
+    "kolicina": "12 komada srednje veličine",
+    "skupina": "povrce",
+    "grama": 1300,
+    "opis": "paprike"
+   },
+   {
+    "naziv": "miješano mljeveno meso (junetina i svinjetina)",
+    "kolicina": "800 g",
+    "skupina": "bjelancevine",
+    "grama": 800,
+    "opis": "meso",
+    "meso": true,
+    "deklaracija": "Uzmi čisto mljeveno meso, bez dodataka."
+   },
+   {
+    "naziv": "riža",
+    "kolicina": "120 g",
+    "skupina": "zitarice",
+    "grama": 300
+   },
+   {
+    "naziv": "jaje",
+    "kolicina": "1 komad",
+    "skupina": "bjelancevine",
+    "grama": 55
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200
+   },
+   {
+    "naziv": "pasirana rajčica",
+    "kolicina": "1,5 kg",
+    "skupina": "povrce",
+    "grama": 1500
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,3 kg",
+    "skupina": "zitarice",
+    "grama": 1300,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "2 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "sol, papar, slatka paprika, šećer, lovor, peršin",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Paprikama odreži vrh s peteljkom i izvadi sjemenke. Luk sitno nasjeckaj, rižu isperi.",
+    "gotovo": "Paprike su prazne i oprane."
+   },
+   {
+    "od": 10,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Umijesi meso, rižu, jaje, pola luka, 1½ žličicu soli, papar, žličicu paprike i peršin. Napuni paprike do ¾ (riža će nabubriti) i zatvori ih odrezanim vrhom.",
+    "gotovo": "Sve paprike su napunjene."
+   },
+   {
+    "od": 20,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "U širokom loncu na ulju kratko pirjaj ostatak luka, ulij pasiranu rajčicu i 500 ml vode, dodaj lovor, žličicu šećera i sol. Uspravno složi paprike.",
+    "toplina": "srednja vatra",
+    "gotovo": "Umak vrije, paprike su gotovo prekrivene."
+   },
+   {
+    "od": 28,
+    "min": 60,
+    "aktivno": false,
+    "tekst": "Kuhaj poklopljeno, lagano.",
+    "toplina": "slaba vatra",
+    "gotovo": "Paprike su mekane i naborane, a nadjev je čvrst i posve siv iznutra."
+   },
+   {
+    "od": 55,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Krumpir oguli, prepolovi i stavi u lonac s hladnom posoljenom vodom.",
+    "toplina": "jaka vatra",
+    "gotovo": "Krumpir je na vatri."
+   },
+   {
+    "od": 60,
+    "min": 25,
+    "aktivno": false,
+    "tekst": "Kuhaj krumpir.",
+    "toplina": "srednja vatra",
+    "gotovo": "Nož ulazi u krumpir bez otpora."
+   },
+   {
+    "od": 85,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Ocijedi krumpir i posluži ga uz paprike prelivene umakom.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "gulas-palenta",
+  "naziv": "Juneći gulaš s palentom",
+  "kratkiNaziv": "Gulaš s palentom",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "vikend",
+  "ukupnoMin": 120,
+  "aktivnoMin": 49,
+  "oprema": [
+   "veliki lonac s debelim dnom i poklopcem",
+   "lonac za palentu",
+   "pjenjača ili kuhača"
+  ],
+  "istodobno": "Gulaš se pirja sat i četvrt sam; palenta se kuha u zadnjih 20 minuta.",
+  "deklaracija": "Temeljac mora biti bezglutenski; instant palenta je kukuruzna, ali provjeri oznaku „bez glutena” zbog moguće kontaminacije.",
+  "sastojci": [
+   {
+    "naziv": "junetina za gulaš (but ili vrat)",
+    "kolicina": "1,2 kg",
+    "skupina": "bjelancevine",
+    "grama": 900,
+    "opis": "junetinu",
+    "meso": true
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "600 g",
+    "skupina": "povrce",
+    "grama": 600,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "mrkva",
+    "kolicina": "300 g",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "crvene paprike",
+    "kolicina": "2 komada",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "koncentrat rajčice",
+    "kolicina": "2 žlice",
+    "skupina": "povrce",
+    "grama": 40
+   },
+   {
+    "naziv": "bezglutenski goveđi temeljac",
+    "kolicina": "1 l",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Kocke i gotovi temeljci često sadrže pšenicu — traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "instant palenta (kukuruzna krupica)",
+    "kolicina": "400 g",
+    "skupina": "zitarice",
+    "grama": 1600,
+    "opis": "palentu",
+    "deklaracija": "Provjeri oznaku „bez glutena”."
+   },
+   {
+    "naziv": "maslac",
+    "kolicina": "40 g",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "slatka mljevena paprika, lovor, kumin, sol, papar",
+    "kolicina": "1 žlica paprike, 2 lista lovora, ½ žličice kumina, po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Luk nasjeckaj, mrkvu nareži na kolute, papriku na kockice. Meso osuši papirom.",
+    "gotovo": "Sve je narezano."
+   },
+   {
+    "od": 10,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "U loncu zagrij ulje i pirjaj luk uz miješanje.",
+    "toplina": "srednja vatra",
+    "gotovo": "Luk je zlatnosmeđ i mekan."
+   },
+   {
+    "od": 22,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Dodaj meso i prži ga dok ne pobijeli sa svih strana. Dodaj mrkvu, papriku i koncentrat; makni s vatre i umiješaj mljevenu papriku.",
+    "toplina": "jaka vatra",
+    "gotovo": "Meso je zatvoreno, paprika nije zagorjela."
+   },
+   {
+    "od": 32,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Ulij vrući temeljac, dodaj lovor, kumin i 1 žličicu soli.",
+    "toplina": "srednja vatra",
+    "gotovo": "Gulaš vrije."
+   },
+   {
+    "od": 35,
+    "min": 75,
+    "aktivno": false,
+    "tekst": "Pirjaj poklopljeno, povremeno promiješaj i dolij malo vode ako se previše zgusne.",
+    "toplina": "slaba vatra",
+    "gotovo": "Meso se raspada pritiskom kuhače, umak je gust i tamnocrven."
+   },
+   {
+    "od": 100,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "U loncu za palentu zakuhaj 1,6 l vode s 1½ žličicom soli.",
+    "toplina": "jaka vatra",
+    "gotovo": "Lonac je na vatri."
+   },
+   {
+    "od": 102,
+    "min": 6,
+    "aktivno": false,
+    "tekst": "Pričekaj da voda zavrije.",
+    "toplina": "jaka vatra",
+    "gotovo": "Voda snažno vrije."
+   },
+   {
+    "od": 108,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Polako sipaj palentu uz stalno miješanje pjenjačom, pa kuhaj miješajući kuhačom. Umiješaj maslac.",
+    "toplina": "srednja vatra",
+    "gotovo": "Palenta se odvaja od stijenki lonca."
+   },
+   {
+    "od": 114,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Izvadi lovor iz gulaša i posluži gulaš preko palente.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "piletina-wok-riza",
+  "naziv": "Piletina s povrćem iz woka i rižom",
+  "kratkiNaziv": "Piletina iz woka",
+  "glavno": "piletina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 35,
+  "aktivnoMin": 35,
+  "oprema": [
+   "wok ili velika široka tava",
+   "lonac s poklopcem za rižu",
+   "dvije zdjelice"
+  ],
+  "istodobno": "Riža se kuha sama dok režeš i pržiš meso i povrće.",
+  "deklaracija": "Umak od soje mora biti bezglutenski (tamari s oznakom „bez glutena”); obični soja umak sadrži pšenicu. Provjeri i kukuruzni škrob.",
+  "sastojci": [
+   {
+    "naziv": "pileća prsa bez kože",
+    "kolicina": "900 g",
+    "skupina": "bjelancevine",
+    "grama": 850,
+    "opis": "piletinu",
+    "meso": true
+   },
+   {
+    "naziv": "riža (basmati ili jasmin)",
+    "kolicina": "500 g",
+    "skupina": "zitarice",
+    "grama": 1150,
+    "opis": "rižu"
+   },
+   {
+    "naziv": "brokula",
+    "kolicina": "500 g",
+    "skupina": "povrce",
+    "grama": 500,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "mrkva",
+    "kolicina": "300 g",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "crvena paprika",
+    "kolicina": "2 komada",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "tikvica",
+    "kolicina": "1 veća",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "mladi luk",
+    "kolicina": "4 stabljike",
+    "skupina": "povrce",
+    "grama": 80
+   },
+   {
+    "naziv": "bezglutenski umak od soje (tamari)",
+    "kolicina": "6 žlica",
+    "skupina": "zacin",
+    "bg": true,
+    "deklaracija": "Obični soja umak sadrži pšenicu — samo tamari s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "kukuruzni škrob (bezglutenski)",
+    "kolicina": "2 žlice",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "med",
+    "kolicina": "1 žlica",
+    "skupina": "ostalo"
+   },
+   {
+    "naziv": "češnjak i svježi đumbir",
+    "kolicina": "3 režnja, komadić od 3 cm",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Rižu isperi dok voda ne bude bistra, stavi u lonac s 900 ml vode i 1 žličicom soli, poklopi i stavi na jaku vatru; kad zavrije, smanji na najslabije.",
+    "toplina": "jaka pa najslabija vatra",
+    "gotovo": "Riža je poklopljena na vatri."
+   },
+   {
+    "od": 3,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Kuhaj rižu poklopljeno, ne otklapaj.",
+    "toplina": "najslabija vatra",
+    "gotovo": "Na površini riže vide se rupice, voda je upijena."
+   },
+   {
+    "od": 18,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Skloni rižu s vatre i ostavi je poklopljenu.",
+    "gotovo": "Riža je rastresita."
+   },
+   {
+    "od": 3,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Piletinu nareži na trakice. Brokulu razdvoji na male cvjetiće, mrkvu nareži na tanke štapiće, papriku na trake, tikvicu na polukolute, mladi luk na kolutiće. Češnjak i đumbir sitno nasjeckaj.",
+    "gotovo": "Sve je narezano i složeno blizu štednjaka."
+   },
+   {
+    "od": 15,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Piletinu pomiješaj s 2 žlice tamarija i 1 žlicom škroba. U zdjelici izmiješaj 4 žlice tamarija, med, 1 žlicu škroba i 100 ml vode.",
+    "gotovo": "Meso je obloženo, umak izmiješan."
+   },
+   {
+    "od": 18,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "U woku jako zagrij 2 žlice ulja i prži piletinu u dvije ture, pa je izvadi.",
+    "toplina": "jaka vatra",
+    "gotovo": "Piletina je bijela i rubovi su zlatni."
+   },
+   {
+    "od": 24,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Dolij 2 žlice ulja, prži mrkvu i brokulu 3 minute, dodaj papriku, tikvicu, češnjak i đumbir i prži još 3 minute.",
+    "toplina": "jaka vatra",
+    "gotovo": "Povrće je jarkih boja, mekano ali hrskavo."
+   },
+   {
+    "od": 30,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Vrati piletinu, ulij umak i miješaj.",
+    "toplina": "jaka vatra",
+    "gotovo": "Umak se zgusnuo i sjaji."
+   },
+   {
+    "od": 33,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Pospi mladim lukom i posluži s rižom.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "cevapi-krumpir",
+  "naziv": "Domaći ćevapi s pečenim krumpirom, ajvarom i salatom od kupusa",
+  "kratkiNaziv": "Ćevapi s krumpirom",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "oboje",
+  "ukupnoMin": 53,
+  "aktivnoMin": 52,
+  "oprema": [
+   "lim za pečenje",
+   "papir za pečenje",
+   "gril tava ili velika tava",
+   "velika zdjela",
+   "ribež"
+  ],
+  "istodobno": "Krumpir se peče sam dok miješaš i oblikuješ ćevape i radiš salatu.",
+  "deklaracija": "Ajvar i gotove mješavine začina provjeri na deklaraciji; mljeveno meso uzmi bez dodataka. Gotovi ćevapi iz trgovine često sadrže gluten — zato ih radimo sami.",
+  "sastojci": [
+   {
+    "naziv": "mljevena junetina",
+    "kolicina": "700 g",
+    "skupina": "bjelancevine",
+    "grama": 600,
+    "opis": "meso",
+    "meso": true,
+    "deklaracija": "Uzmi čisto mljeveno meso, bez dodataka."
+   },
+   {
+    "naziv": "mljevena janjetina ili svinjetina",
+    "kolicina": "300 g",
+    "skupina": "bjelancevine",
+    "grama": 250,
+    "meso": true
+   },
+   {
+    "naziv": "soda bikarbona",
+    "kolicina": "½ žličice",
+    "skupina": "ostalo"
+   },
+   {
+    "naziv": "gazirana mineralna voda",
+    "kolicina": "80 ml",
+    "skupina": "ostalo"
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "3 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,5 kg",
+    "skupina": "zitarice",
+    "grama": 1500,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "bijeli kupus",
+    "kolicina": "600 g",
+    "skupina": "povrce",
+    "grama": 600,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200
+   },
+   {
+    "naziv": "ajvar",
+    "kolicina": "300 g",
+    "skupina": "povrce",
+    "grama": 300,
+    "deklaracija": "Ajvar je obično bez glutena, ali provjeri deklaraciju."
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "6 žlica",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "jabučni ocat, sol, papar, slatka paprika",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 220 °C (ventilator 200 °C).",
+    "temperatura": "220 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Krumpir dobro operi i nareži na kriške (ne guli).",
+    "gotovo": "Krumpir je narezan."
+   },
+   {
+    "od": 10,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Krumpir pomiješaj na limu s 4 žlice ulja, 1 žličicom soli i paprikom, raširi u jedan sloj.",
+    "gotovo": "Kriške se ne preklapaju."
+   },
+   {
+    "od": 15,
+    "min": 35,
+    "aktivno": false,
+    "tekst": "Peci krumpir u sredini pećnice; na pola vremena protresi lim.",
+    "temperatura": "220 °C",
+    "gotovo": "Kriške su zlatne i hrskave na rubovima, mekane iznutra."
+   },
+   {
+    "od": 13,
+    "min": 18,
+    "aktivno": true,
+    "tekst": "U zdjeli umijesi meso, protisnuti češnjak, 1½ žličicu soli, papar, sodu bikarbonu i mineralnu vodu — mijesi 5 minuta. Mokrim rukama oblikuj oko 36 ćevapa debljine prsta.",
+    "gotovo": "Smjesa je ljepljiva i ćevapi drže oblik."
+   },
+   {
+    "od": 31,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "Kupus tanko naribaj, posoli i izgnječi rukama, začini octom i 1 žlicom ulja. Luk sitno nasjeckaj za posluživanje.",
+    "gotovo": "Kupus je omekšao i pustio malo soka."
+   },
+   {
+    "od": 37,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Jako zagrij gril tavu, lagano je nauli i peci ćevape u dvije ture, okrećući ih.",
+    "toplina": "jaka vatra",
+    "gotovo": "Ćevapi su smeđi sa svih strana i čvrsti na dodir, iznutra bez ružičaste boje."
+   },
+   {
+    "od": 50,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Izvadi krumpir i posluži ćevape s lukom, ajvarom, krumpirom i salatom od kupusa.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "svinjska-pecenka",
+  "naziv": "Svinjska pečenka s pečenim krumpirom i dinstanim kupusom",
+  "kratkiNaziv": "Svinjska pečenka",
+  "glavno": "svinjetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "vikend",
+  "ukupnoMin": 135,
+  "aktivnoMin": 44,
+  "oprema": [
+   "pekač za meso",
+   "lim za pečenje",
+   "aluminijska folija",
+   "široki lonac ili tava s poklopcem za kupus"
+  ],
+  "istodobno": "Meso se peče samo; krumpir ulazi u pećnicu na sat prije kraja, a kupus se dinsta na ploči.",
+  "deklaracija": "Koristi čiste začine; gotove mješavine začina za pečenje mogu sadržavati gluten.",
+  "sastojci": [
+   {
+    "naziv": "svinjski vrat bez kosti",
+    "kolicina": "1,5 kg",
+    "skupina": "bjelancevine",
+    "grama": 1000,
+    "opis": "svinjetinu",
+    "meso": true
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,5 kg",
+    "skupina": "zitarice",
+    "grama": 1500,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "bijeli kupus",
+    "kolicina": "1,2 kg",
+    "skupina": "povrce",
+    "grama": 1100,
+    "opis": "kupus"
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "6 režnjeva",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "6 žlica",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "kim, sol, papar, slatka paprika, jabučni ocat",
+    "kolicina": "1 žličica kima, 3 žličice soli, po ukusu, 1 žlica octa",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 190 °C (gornji i donji grijač).",
+    "temperatura": "190 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Meso osuši, natrljaj s 1½ žličicom soli, paprom, kimom i protisnutim češnjakom.",
+    "gotovo": "Meso je začinjeno sa svih strana."
+   },
+   {
+    "od": 10,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Stavi meso u pekač, ulij 200 ml vode i pokrij folijom.",
+    "gotovo": "Pekač je spreman."
+   },
+   {
+    "od": 15,
+    "min": 45,
+    "aktivno": false,
+    "tekst": "Peci meso pokriveno u sredini pećnice.",
+    "temperatura": "190 °C",
+    "gotovo": "Meso je svijetlo i ispustilo je sok."
+   },
+   {
+    "od": 50,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Krumpir oguli, nareži na četvrtine, na limu pomiješaj s 3 žlice ulja i 1 žličicom soli.",
+    "gotovo": "Krumpir je na limu."
+   },
+   {
+    "od": 60,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Skini foliju s mesa i prelij ga sokom. Lim s krumpirom stavi na donju rešetku.",
+    "temperatura": "190 °C",
+    "gotovo": "Meso je otkriveno, krumpir u pećnici."
+   },
+   {
+    "od": 63,
+    "min": 55,
+    "aktivno": false,
+    "tekst": "Peci meso i krumpir; svakih 20 minuta prelij meso sokom.",
+    "temperatura": "190 °C",
+    "gotovo": "Meso je zlatnosmeđe i u sredini ima 70 °C (sok je bistar); krumpir je hrskav."
+   },
+   {
+    "od": 80,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Kupus nareži na tanke rezance, luk na polumjesece.",
+    "gotovo": "Kupus je narezan."
+   },
+   {
+    "od": 88,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Na 3 žlice ulja pirjaj luk, dodaj kupus, kim, 1 žličicu soli, ocat i 100 ml vode.",
+    "toplina": "srednja vatra",
+    "gotovo": "Kupus je počeo venuti."
+   },
+   {
+    "od": 93,
+    "min": 25,
+    "aktivno": false,
+    "tekst": "Dinstaj kupus poklopljeno, povremeno promiješaj.",
+    "toplina": "slaba vatra",
+    "gotovo": "Kupus je mekan i blago zlatan."
+   },
+   {
+    "od": 118,
+    "min": 12,
+    "aktivno": false,
+    "tekst": "Izvadi meso na dasku, pokrij folijom i ostavi da odmori. Krumpir ostavi u ugašenoj pećnici da ostane topao.",
+    "temperatura": "ugašena pećnica",
+    "gotovo": "Meso je odmorilo i sok se ne razlijeva pri rezanju."
+   },
+   {
+    "od": 130,
+    "min": 5,
+    "aktivno": true,
+    "tekst": "Meso nareži na ploške i posluži s krumpirom, kupusom i sokom od pečenja.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "musaka-krumpir",
+  "naziv": "Musaka od krumpira i mljevenog mesa",
+  "kratkiNaziv": "Musaka",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "vikend",
+  "ukupnoMin": 100,
+  "aktivnoMin": 39,
+  "oprema": [
+   "vatrostalna posuda oko 30 × 22 cm",
+   "velika tava",
+   "zdjela",
+   "aluminijska folija"
+  ],
+  "istodobno": "Pećnica se grije dok slažeš musaku; za vrijeme pečenja kuhinja je slobodna.",
+  "deklaracija": "Mljeveno meso uzmi bez dodataka; provjeri koncentrat rajčice. Ostalo je prirodno bez glutena.",
+  "sastojci": [
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,8 kg",
+    "skupina": "zitarice",
+    "grama": 1800,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "miješano mljeveno meso (junetina i svinjetina)",
+    "kolicina": "700 g",
+    "skupina": "bjelancevine",
+    "grama": 600,
+    "opis": "meso",
+    "meso": true,
+    "deklaracija": "Uzmi čisto mljeveno meso, bez dodataka."
+   },
+   {
+    "naziv": "jaja",
+    "kolicina": "4 komada",
+    "skupina": "bjelancevine",
+    "grama": 220
+   },
+   {
+    "naziv": "mlijeko",
+    "kolicina": "400 ml",
+    "skupina": "mlijecno"
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "mrkva, naribana",
+    "kolicina": "300 g",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "koncentrat rajčice",
+    "kolicina": "2 žlice",
+    "skupina": "povrce",
+    "grama": 40
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "sol, papar, slatka paprika",
+    "kolicina": "oko 2½ žličice soli, po ukusu",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "zelena salata (neobavezno, uz musaku)",
+    "kolicina": "1 glavica",
+    "skupina": "povrce",
+    "grama": 300,
+    "neobavezno": true
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Krumpir oguli i nareži na tanke ploške (5 mm), posoli. Luk sitno nasjeckaj, mrkvu naribaj.",
+    "gotovo": "Sve je narezano."
+   },
+   {
+    "od": 12,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Na ulju pirjaj luk i mrkvu 4 minute, dodaj meso i prži dok ne promijeni boju. Dodaj koncentrat, 1 žličicu soli, papar i papriku.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Meso je posve isprženo i rastresito."
+   },
+   {
+    "od": 24,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 200 °C.",
+    "temperatura": "200 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 24,
+    "min": 12,
+    "aktivno": true,
+    "tekst": "Nauljenu posudu slaži: krumpir, meso, krumpir, meso, krumpir. Ulij 200 ml vode i pokrij folijom.",
+    "gotovo": "Gornji sloj je krumpir, posuda je pokrivena."
+   },
+   {
+    "od": 39,
+    "min": 40,
+    "aktivno": false,
+    "tekst": "Peci pokriveno.",
+    "temperatura": "200 °C",
+    "gotovo": "Nož lako prolazi kroz krumpir."
+   },
+   {
+    "od": 79,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Izmuti jaja s mlijekom i ½ žličice soli. Skini foliju i prelij preko musake.",
+    "temperatura": "200 °C",
+    "gotovo": "Preljev je ravnomjerno razliven."
+   },
+   {
+    "od": 82,
+    "min": 13,
+    "aktivno": false,
+    "tekst": "Peci otkriveno.",
+    "temperatura": "200 °C",
+    "gotovo": "Površina je zlatna i preljev se stisnuo (ne trese se)."
+   },
+   {
+    "od": 95,
+    "min": 5,
+    "aktivno": false,
+    "tekst": "Izvadi i ostavi da se slegne, pa nareži.",
+    "gotovo": "Komadi drže oblik."
+   }
+  ]
+ },
+ {
+  "id": "hamburgeri-domaci",
+  "naziv": "Domaći hamburgeri u bezglutenskim pecivima s pečenim krumpirom",
+  "kratkiNaziv": "Domaći hamburgeri",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "oboje",
+  "ukupnoMin": 50,
+  "aktivnoMin": 45,
+  "oprema": [
+   "lim za pečenje",
+   "papir za pečenje",
+   "velika tava ili gril tava",
+   "zdjela"
+  ],
+  "istodobno": "Krumpir se peče dok oblikuješ pljeskavice i pripremaš povrće.",
+  "deklaracija": "Peciva moraju biti bezglutenska. Kečap, senf i topljeni sir provjeri na deklaraciji.",
+  "sastojci": [
+   {
+    "naziv": "mljevena junetina",
+    "kolicina": "1 kg",
+    "skupina": "bjelancevine",
+    "grama": 800,
+    "opis": "junetinu",
+    "meso": true,
+    "deklaracija": "Uzmi čisto mljeveno meso, bez dodataka."
+   },
+   {
+    "naziv": "bezglutenska peciva za hamburgere",
+    "kolicina": "8 komada",
+    "skupina": "zitarice",
+    "grama": 600,
+    "opis": "bezglutensko pecivo",
+    "bg": true,
+    "deklaracija": "Samo peciva s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "1,2 kg",
+    "skupina": "zitarice",
+    "grama": 1200,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "rajčice",
+    "kolicina": "3 veće",
+    "skupina": "povrce",
+    "grama": 450,
+    "opis": "povrće"
+   },
+   {
+    "naziv": "zelena salata",
+    "kolicina": "1 glavica",
+    "skupina": "povrce",
+    "grama": 250
+   },
+   {
+    "naziv": "krastavci",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 500
+   },
+   {
+    "naziv": "crveni luk",
+    "kolicina": "1 komad",
+    "skupina": "povrce",
+    "grama": 100
+   },
+   {
+    "naziv": "sir gauda u ploškama",
+    "kolicina": "8 ploški",
+    "skupina": "mlijecno",
+    "grama": 160
+   },
+   {
+    "naziv": "kečap i senf",
+    "kolicina": "po želji",
+    "skupina": "zacin",
+    "deklaracija": "Provjeri da su bez glutena."
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "4 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "sol i papar",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Uključi pećnicu na 220 °C (ventilator 200 °C).",
+    "temperatura": "220 °C",
+    "gotovo": "Pećnica je zagrijana."
+   },
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Krumpir operi, nareži na štapiće debljine 1 cm, osuši, pomiješaj na limu s 3 žlice ulja i 1 žličicom soli.",
+    "gotovo": "Krumpir je u jednom sloju na limu."
+   },
+   {
+    "od": 15,
+    "min": 30,
+    "aktivno": false,
+    "tekst": "Peci krumpir; na pola vremena protresi lim.",
+    "temperatura": "220 °C",
+    "gotovo": "Krumpir je zlatan i hrskav."
+   },
+   {
+    "od": 10,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Meso lagano izmiješaj s 1 žličicom soli i paprom, podijeli na 8 dijelova i oblikuj pljeskavice debljine 1,5 cm; palcem napravi plitku udubinu u sredini.",
+    "gotovo": "Pljeskavice su malo šire od peciva."
+   },
+   {
+    "od": 20,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Rajčice i krastavce nareži na ploške, luk na tanke kolutiće, operi listove salate.",
+    "gotovo": "Povrće je složeno na tanjur."
+   },
+   {
+    "od": 33,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Jako zagrij tavu s malo ulja i peci pljeskavice 4 minute po strani; zadnju minutu stavi sir na vrh i poklopi.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Meso je smeđe izvana i bez ružičastog soka (71 °C), sir je rastopljen."
+   },
+   {
+    "od": 43,
+    "min": 4,
+    "aktivno": true,
+    "tekst": "Prerezana peciva kratko prepeci u suhoj tavi.",
+    "toplina": "srednja vatra",
+    "gotovo": "Unutarnja strana je topla i blago hrskava."
+   },
+   {
+    "od": 47,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Složi hamburgere s povrćem i posluži s krumpirom (ostatak povrća stavi na stol).",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "pureci-medaljoni-gljive",
+  "naziv": "Pureći medaljoni u umaku od gljiva s rižom i mahunama",
+  "kratkiNaziv": "Puretina s gljivama",
+  "glavno": "puretina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 35,
+  "aktivnoMin": 35,
+  "oprema": [
+   "velika tava",
+   "lonac s poklopcem za rižu",
+   "lonac za mahune"
+  ],
+  "istodobno": "Riža i mahune kuhaju se same dok pržiš meso i radiš umak.",
+  "deklaracija": "Temeljac i vrhnje za kuhanje provjeri na deklaraciji; za zgušnjavanje koristi bezglutenski kukuruzni škrob.",
+  "sastojci": [
+   {
+    "naziv": "pureći file",
+    "kolicina": "1 kg",
+    "skupina": "bjelancevine",
+    "grama": 850,
+    "opis": "puretinu",
+    "meso": true
+   },
+   {
+    "naziv": "šampinjoni",
+    "kolicina": "500 g",
+    "skupina": "povrce",
+    "grama": 500,
+    "opis": "gljive"
+   },
+   {
+    "naziv": "smrznute mahune",
+    "kolicina": "700 g",
+    "skupina": "povrce",
+    "grama": 700,
+    "opis": "mahune"
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "1 veći",
+    "skupina": "povrce",
+    "grama": 150
+   },
+   {
+    "naziv": "riža",
+    "kolicina": "450 g",
+    "skupina": "zitarice",
+    "grama": 1000,
+    "opis": "rižu"
+   },
+   {
+    "naziv": "vrhnje za kuhanje",
+    "kolicina": "200 ml",
+    "skupina": "mlijecno",
+    "deklaracija": "Neka vrhnja za kuhanje imaju dodane zgušnjivače — provjeri da su bez glutena."
+   },
+   {
+    "naziv": "bezglutenski povrtni temeljac",
+    "kolicina": "250 ml",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "kukuruzni škrob (bezglutenski)",
+    "kolicina": "1 žlica",
+    "skupina": "ostalo",
+    "bg": true,
+    "deklaracija": "Traži oznaku „bez glutena”."
+   },
+   {
+    "naziv": "ulje i maslac",
+    "kolicina": "3 žlice ulja, 20 g maslaca",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "sol, papar, peršin",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Rižu isperi, stavi u lonac s 800 ml vode i 1 žličicom soli, poklopi i stavi na jaku vatru; kad zavrije, smanji na najslabije.",
+    "toplina": "jaka pa najslabija vatra",
+    "gotovo": "Riža je poklopljena na vatri."
+   },
+   {
+    "od": 3,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Kuhaj rižu poklopljeno.",
+    "toplina": "najslabija vatra",
+    "gotovo": "Voda je upijena."
+   },
+   {
+    "od": 18,
+    "min": 17,
+    "aktivno": false,
+    "tekst": "Skloni rižu s vatre i ostavi poklopljenu.",
+    "gotovo": "Riža je rastresita."
+   },
+   {
+    "od": 3,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Mahune stavi u lonac s malo posoljene kipuće vode (iz kuhala).",
+    "toplina": "srednja vatra",
+    "gotovo": "Mahune su u loncu."
+   },
+   {
+    "od": 5,
+    "min": 10,
+    "aktivno": false,
+    "tekst": "Kuhaj mahune poklopljeno.",
+    "toplina": "srednja vatra",
+    "gotovo": "Mahune su mekane, ali još zelene."
+   },
+   {
+    "od": 5,
+    "min": 8,
+    "aktivno": true,
+    "tekst": "Puretinu nareži na medaljone debljine 2 cm, posoli i popapri. Gljive nareži na listiće, luk sitno nasjeckaj.",
+    "gotovo": "Sve je narezano."
+   },
+   {
+    "od": 13,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "U tavi zagrij ulje i prži medaljone u dvije ture, 3–4 minute po strani, pa ih izvadi.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Medaljoni su zlatni, a iznutra bijeli i sočni."
+   },
+   {
+    "od": 23,
+    "min": 6,
+    "aktivno": true,
+    "tekst": "U istoj tavi rastopi maslac, pirjaj luk 2 minute, dodaj gljive i prži dok ne ispari tekućina.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Gljive su zlatne i suhe."
+   },
+   {
+    "od": 29,
+    "min": 4,
+    "aktivno": true,
+    "tekst": "Ulij temeljac i vrhnje u kojem si razmutio škrob, vrati meso i kuhaj.",
+    "toplina": "srednja vatra",
+    "gotovo": "Umak je kremast i prekriva žlicu."
+   },
+   {
+    "od": 33,
+    "min": 2,
+    "aktivno": true,
+    "tekst": "Ocijedi mahune i posluži meso s umakom, rižom i mahunama, posuto peršinom.",
+    "gotovo": "Sve je na stolu."
+   }
+  ]
+ },
+ {
+  "id": "varivo-mahune",
+  "naziv": "Varivo od mahuna s junetinom i bezglutenskim kruhom",
+  "kratkiNaziv": "Varivo od mahuna",
+  "glavno": "junetina",
+  "petak": false,
+  "vecerPrije": false,
+  "tip": "radni",
+  "ukupnoMin": 80,
+  "aktivnoMin": 30,
+  "oprema": [
+   "veliki lonac s debelim dnom (5 l)",
+   "daska i nož"
+  ],
+  "istodobno": "Meso se kuha samo pola sata prije nego što dodaš povrće; tada je kuhinja slobodna.",
+  "deklaracija": "Kruh mora biti bezglutenski. Kiselo vrhnje i mljevenu papriku provjeri na deklaraciji.",
+  "sastojci": [
+   {
+    "naziv": "junetina (vrat ili but)",
+    "kolicina": "700 g",
+    "skupina": "bjelancevine",
+    "grama": 550,
+    "opis": "junetinu",
+    "meso": true
+   },
+   {
+    "naziv": "mahune (svježe ili smrznute)",
+    "kolicina": "1 kg",
+    "skupina": "povrce",
+    "grama": 1000,
+    "opis": "mahune"
+   },
+   {
+    "naziv": "krumpir",
+    "kolicina": "700 g",
+    "skupina": "zitarice",
+    "grama": 700,
+    "opis": "krumpir"
+   },
+   {
+    "naziv": "mrkva",
+    "kolicina": "300 g",
+    "skupina": "povrce",
+    "grama": 300
+   },
+   {
+    "naziv": "luk",
+    "kolicina": "2 srednja",
+    "skupina": "povrce",
+    "grama": 200
+   },
+   {
+    "naziv": "češnjak",
+    "kolicina": "2 režnja",
+    "skupina": "zacin"
+   },
+   {
+    "naziv": "kiselo vrhnje",
+    "kolicina": "180 g",
+    "skupina": "mlijecno",
+    "deklaracija": "Obično je bez glutena; provjeri."
+   },
+   {
+    "naziv": "bezglutenski kruh",
+    "kolicina": "400 g",
+    "skupina": "zitarice",
+    "grama": 400,
+    "bg": true,
+    "deklaracija": "Samo kruh s oznakom „bez glutena”."
+   },
+   {
+    "naziv": "ulje",
+    "kolicina": "3 žlice",
+    "skupina": "masnoca"
+   },
+   {
+    "naziv": "lovor, slatka paprika, sol, papar, peršin",
+    "kolicina": "po ukusu",
+    "skupina": "zacin"
+   }
+  ],
+  "koraci": [
+   {
+    "od": 0,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Meso nareži na kockice od 2 cm. Luk i češnjak nasjeckaj, mrkvu nareži na kolute, krumpir na kocke, mahunama odreži krajeve i prepolovi ih.",
+    "gotovo": "Sve je narezano."
+   },
+   {
+    "od": 10,
+    "min": 10,
+    "aktivno": true,
+    "tekst": "Na ulju pirjaj luk 4 minute, dodaj meso i prži dok ne pobijeli, pa dodaj češnjak i papriku.",
+    "toplina": "srednje jaka vatra",
+    "gotovo": "Meso je zatvoreno sa svih strana."
+   },
+   {
+    "od": 20,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Ulij 1,5 l vruće vode, dodaj lovor i 1 žličicu soli.",
+    "toplina": "jaka vatra",
+    "gotovo": "Varivo vrije."
+   },
+   {
+    "od": 23,
+    "min": 35,
+    "aktivno": false,
+    "tekst": "Kuhaj meso poklopljeno.",
+    "toplina": "slaba vatra",
+    "gotovo": "Meso je gotovo mekano."
+   },
+   {
+    "od": 58,
+    "min": 3,
+    "aktivno": true,
+    "tekst": "Dodaj mahune, mrkvu i krumpir te po potrebi malo vode da bude pokriveno.",
+    "toplina": "srednja vatra",
+    "gotovo": "Varivo ponovno vrije."
+   },
+   {
+    "od": 61,
+    "min": 15,
+    "aktivno": false,
+    "tekst": "Kuhaj poklopljeno.",
+    "toplina": "srednja vatra",
+    "gotovo": "Krumpir i mahune su mekani."
+   },
+   {
+    "od": 76,
+    "min": 4,
+    "aktivno": true,
+    "tekst": "Izvadi lovor, umiješaj kiselo vrhnje razmućeno s malo juhe i peršin, posoli po ukusu. Posluži s kruhom.",
+    "gotovo": "Varivo je blago kremasto."
+   }
+  ]
+ }
+]
